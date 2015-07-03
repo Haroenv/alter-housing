@@ -7,3 +7,16 @@ html {
 .structural {
 	display: none;
 }
+
+.ir {
+	display: block;
+	background-size: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#wtf { background-image: url("../img/logo-world-travel-magazine.svg") } //todo
+#tam { background-image: url("../img/logo-travel-agent-magazine.svg") } //todo
+#atg { background-image: url("../img/logo-around-the-globe.svg") } //todo
+#gv  { background-image: url("../img/logo-govacation.svg") } //todo

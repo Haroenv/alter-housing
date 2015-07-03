@@ -359,4 +359,23 @@ html {
 .structural {
   display: none; }
 
+.ir {
+  display: block;
+  background-size: 100%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+#wtf {
+  background-image: url("../img/logo-world-travel-magazine.svg"); }
+
+#tam {
+  background-image: url("../img/logo-travel-agent-magazine.svg"); }
+
+#atg {
+  background-image: url("../img/logo-around-the-globe.svg"); }
+
+#gv {
+  background-image: url("../img/logo-govacation.svg"); }
+
 /*# sourceMappingURL=style.css.map */
