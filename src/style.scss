@@ -1,35 +1,10 @@
+/* Normalize */
 @import "normalize";
+/* Beginning of the stylesheet */
+@import "base";
+@import "layout";
+@import "icons";
 
-html {
-	font-family: Helvetica, sans-serif;
-}
-
-.structural {
-	display: none;
-}
-
-.ir {
-	display: block;
-	background-size: 100%;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-.half {
-	float: left;
-	width: 50%;
-	padding: 0;
-	@extend .clearfix;
-}
 
 #wtf { background-image: url("../img/logo-world-travel-magazine.svg") } //todo
 #tam { background-image: url("../img/logo-travel-agent-magazine.svg") } //todo
