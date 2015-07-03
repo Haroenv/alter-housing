@@ -16,6 +16,21 @@ html {
 	overflow: hidden;
 }
 
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.half {
+	float: left;
+	width: 50%;
+	padding: 0;
+	@extend .clearfix;
+}
+
 #wtf { background-image: url("../img/logo-world-travel-magazine.svg") } //todo
 #tam { background-image: url("../img/logo-travel-agent-magazine.svg") } //todo
 #atg { background-image: url("../img/logo-around-the-globe.svg") } //todo

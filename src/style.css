@@ -366,6 +366,16 @@ html {
   white-space: nowrap;
   overflow: hidden; }
 
+.clearfix:after, .half:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.half {
+  float: left;
+  width: 50%;
+  padding: 0; }
+
 #wtf {
   background-image: url("../img/logo-world-travel-magazine.svg"); }
 
