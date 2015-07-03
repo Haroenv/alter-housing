@@ -7,3 +7,4 @@
 - [ ] subtitle
 - [ ] description
 - [ ] slogan
+- [ ] social icons
