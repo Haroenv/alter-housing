@@ -21,12 +21,24 @@ iframe {
 .opening {
 	height: 87.5vh;
 
+	form {
+		@extend %dark;
+	}
+
 	.overlay {
 		background-color: transparentize($light, 0.5);
 		color: $dark;
-
+		width: 30%;
+		margin: 0 auto;
+		text-align: center;
 		h3 {
 			font-size: 3rem;
 		}
+	}
+}
+
+blockquote {
+	cite {
+		float: right;
 	}
 }
