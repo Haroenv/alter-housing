@@ -451,8 +451,11 @@ footer {
     margin: 0;
     padding: 1rem; }
     footer > ul > li {
+      vertical-align: text-top;
       display: inline-block;
       width: 33%; }
+      footer > ul > li ul {
+        padding: 0; }
   footer li {
     list-style-type: none; }
 

@@ -54,15 +54,18 @@ footer {
 	@extend %dark;
 	clear: both;
 
-
-
 	& > ul {
 		margin: 0;
 		padding: 1rem;
 
 		& > li {
+			vertical-align: text-top;
 			display: inline-block;
 			width: 33%;
+
+			ul {
+				padding: 0;
+			}
 		}
 	}
 
