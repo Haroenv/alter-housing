@@ -29,8 +29,14 @@ header {
 		background-color: #FFF;
 		text-align: center;
 
+
 		li {
 			float: none;
+
+			a {
+				color: #000;
+				margin: 1rem;
+			}
 		}
 	}
 
