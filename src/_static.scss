@@ -10,6 +10,7 @@ header {
 	p {
 		font-family: $condensed;
 		margin: 0;
+		float: left;
 	}
 
 	@extend %clearfix;
@@ -26,9 +27,9 @@ header {
 nav {
 	background-color: $light;
 	text-align: center;
-
-
 	li {
+		list-style-type: none;
+		display: inline-block;
 		float: none;
 		padding: 0.5rem 1rem;
 		margin: 0.4rem 0;
@@ -53,6 +54,10 @@ nav {
 footer {
 	@extend %dark;
 	clear: both;
+
+	h3 {
+		font-family: $condensed;
+	}
 
 	& > ul {
 		margin: 0;

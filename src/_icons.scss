@@ -31,7 +31,7 @@ $icons: (
 
 @each $name, $unicode in $icons {
 	.#{$name} {
-		&:before {
+		&::before {
 			content: $unicode;
 		}
 		@extend %icon;
