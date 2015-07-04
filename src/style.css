@@ -6,6 +6,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 html {
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -356,7 +357,7 @@ th {
 /* Beginning of the stylesheet */
 /* Utility styles and classes */
 html {
-  font-family: Helvetica, sans-serif; }
+  font-family: "Helvetica Neue", sans-serif; }
 
 .structural {
   display: none; }
@@ -368,7 +369,7 @@ html {
   white-space: nowrap;
   overflow: hidden; }
 
-.half:after {
+.half:after, header:after {
   content: "";
   display: table;
   clear: both; }
@@ -377,6 +378,8 @@ html {
 a {
   color: #000;
   text-decoration: none; }
+  a:hover {
+    color: #aaa; }
 
 /* Layout */
 .half {
@@ -397,13 +400,29 @@ iframe {
 /* header and footer */
 header {
   background-color: #000;
-  color: #fff; }
+  color: #fff;
+  margin: 0; }
+  header h1 {
+    margin: 0;
+    float: left; }
+  header p {
+    font-family: "Open Sans Condensed", sans-serif;
+    margin: 0; }
   header li {
     list-style-type: none;
-    display: inline-block; }
+    display: inline-block;
+    float: right; }
+    header li a {
+      color: #fff; }
   header nav {
     background-color: #FFF;
     text-align: center; }
+    header nav li {
+      float: none; }
+
+footer + li {
+  font-family: "Open Sans Condensed", sans-serif;
+  list-style-type: none; }
 
 @font-face {
   font-family: 'FontAwesome';

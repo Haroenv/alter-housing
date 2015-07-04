@@ -1,7 +1,7 @@
 /* Utility styles and classes */
 
 html {
-	font-family: Helvetica, sans-serif;
+	font-family: $helvetica;
 }
 
 .structural {
@@ -29,4 +29,8 @@ html {
 a {
 	color: #000;
 	text-decoration: none;
+
+	&:hover {
+		color: #aaa;
+	}
 }
