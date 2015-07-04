@@ -6,6 +6,10 @@ html {
 	font-weight: 300;
 }
 
+%wrapper {
+	max-width: 960px;
+}
+
 .structural {
 	display: none;
 }
@@ -26,13 +30,22 @@ html {
 	}
 }
 
+%dark {
+	background-color: $dark;
+	color: $light;
+
+	a {
+		color: $light;
+	}
+}
+
 /* basic styling */
 
 a {
-	color: #000;
+	color: $dark;
 	text-decoration: none;
 
 	&:hover {
-		color: #aaa;
+		color: $medium;
 	}
 }

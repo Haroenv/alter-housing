@@ -22,8 +22,8 @@ iframe {
 	height: 87.5vh;
 
 	.overlay {
-		background-color: rgba(255,255,255,0.5);
-		color: #000;
+		background-color: transparentize($light, 0.5);
+		color: $dark;
 
 		h3 {
 			font-size: 3rem;

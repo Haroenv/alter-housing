@@ -1,7 +1,6 @@
 /* header and footer */
 header {
-	background-color: #000;
-	color: #fff;
+	@extend %dark;
 
 	h1 {
 		margin: 0;
@@ -19,34 +18,55 @@ header {
 		list-style-type: none;
 		display: inline-block;
 		float: right;
-
-		a {
-			color: #fff;
-		}
-	}
-
-	nav {
-		background-color: #FFF;
-		text-align: center;
-
-
-		li {
-			float: none;
-
-			a {
-				color: #000;
-				margin: 1rem;
-			}
-		}
 	}
 
 	margin: 0;
 }
 
+nav {
+	background-color: $light;
+	text-align: center;
+
+
+	li {
+		float: none;
+		padding: 0.5rem 1rem;
+		margin: 0.4rem 0;
+
+		&:not(:last-child) {
+			border-right: 1px solid $medium;
+		}
+
+		a {
+			color: $dark;
+			// margin: 1rem;
+			padding: 0.5rem 1rem;
+
+			.active {
+				color: $medium;
+			}
+		}
+	}
+}
+
 
 footer {
-	& + li {
-		font-family: $condensed;
+	@extend %dark;
+	clear: both;
+
+
+
+	& > ul {
+		margin: 0;
+		padding: 1rem;
+
+		& > li {
+			display: inline-block;
+			width: 33%;
+		}
+	}
+
+	& li {
 		list-style-type: none;
 	}
 }

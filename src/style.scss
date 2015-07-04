@@ -1,10 +1,11 @@
 /* Normalize */
 @import "normalize";
 /* Beginning of the stylesheet */
+@import "test"; //todo: change before prod
+@import "variables";
 @import "fonts";
 @import "base";
 @import "layout";
 @import "static";
 @import "icons";
 @import "images";
-@import "index";
