@@ -3,10 +3,6 @@
 /* Beginning of the stylesheet */
 @import "base";
 @import "layout";
+@import "static";
 @import "icons";
-
-
-#wtf { background-image: url("../img/logo-world-travel-magazine.svg") } //todo
-#tam { background-image: url("../img/logo-travel-agent-magazine.svg") } //todo
-#atg { background-image: url("../img/logo-around-the-globe.svg") } //todo
-#gv  { background-image: url("../img/logo-govacation.svg") } //todo
+@import "images";

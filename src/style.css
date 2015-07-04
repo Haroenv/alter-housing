@@ -7,8 +7,6 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -363,7 +361,7 @@ html {
 .structural {
   display: none; }
 
-.ir {
+#wtf, #tam, #atg, #gv {
   display: block;
   background-size: 100%;
   text-indent: 100%;
@@ -374,6 +372,11 @@ html {
   content: "";
   display: table;
   clear: both; }
+
+/* basic styling */
+a {
+  color: #000;
+  text-decoration: none; }
 
 /* Layout */
 .half {
@@ -390,6 +393,17 @@ iframe {
   height: 100%;
   min-height: 200px;
   border: 0; }
+
+/* header and footer */
+header {
+  background-color: #000;
+  color: #fff; }
+  header li {
+    list-style-type: none;
+    display: inline-block; }
+  header nav {
+    background-color: #FFF;
+    text-align: center; }
 
 @font-face {
   font-family: 'FontAwesome';
@@ -430,6 +444,7 @@ iframe {
 .amex:before {
   content: ""; }
 
+/* image replacement */
 #wtf {
   background-image: url("../img/logo-world-travel-magazine.svg"); }
 
