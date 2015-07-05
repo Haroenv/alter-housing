@@ -23,6 +23,17 @@ iframe {
 
 	form {
 		@extend %dark;
+		font-family: $sans;
+		padding: 1rem;
+		text-align: center;
+
+		input {
+			color: $dark;
+		}
+
+		label {
+			clear: right;
+		}
 	}
 
 	.overlay {
@@ -31,6 +42,7 @@ iframe {
 		width: 30%;
 		margin: 0 auto;
 		text-align: center;
+
 		h3 {
 			font-size: 3rem;
 		}
@@ -38,7 +50,22 @@ iframe {
 }
 
 blockquote {
+
 	cite {
 		float: right;
+	}
+}
+
+
+.icons {
+	text-align: center
+
+	li {
+		list-style: none;
+		display: inline-block;
+
+		ul {
+			color: #000;
+		}
 	}
 }

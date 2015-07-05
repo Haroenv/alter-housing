@@ -1,4 +1,9 @@
 /* image replacement */
+
+%logos {
+
+}
+
 #wtf {
 	@extend %ir;
 	background-image: url("../img/logo-world-travel-magazine.svg")
@@ -19,27 +24,37 @@
 	background-image: url("../img/logo-govacation.svg")
 } //todo
 
+%icons {
+	width: 4rem;
+	height: 4rem;
+}
+
 #wifi {
 	@extend %ir;
-	background-image: url("../img/wifi.svg"); //todo
+	@extend %icons;
+	background-image: url("../img/icon-wifi.png"); //todo
 }
 
 #furn {
 	@extend %ir;
-	background-image: url("../img/furnished.svg"); //todo
+	@extend %icons;
+	background-image: url("../img/icon-furnished.png"); //todo
 }
 
 #park {
 	@extend %ir;
-	background-image: url("../img/parking.svg"); //todo
+	@extend %icons;
+	background-image: url("../img/icon-parking.png"); //todo
 }
 
 #airp {
 	@extend %ir;
-	background-image: url("../img/airport.svg"); //todo
+	@extend %icons;
+	background-image: url("../img/icon-airport.png"); //todo
 }
 
 #clean {
 	@extend %ir;
-	background-image: url("../img/clean.svg"); //todo
+	@extend %icons;
+	background-image: url("../img/icon-cleaning.png"); //todo
 }
