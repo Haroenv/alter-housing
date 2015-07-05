@@ -1,9 +1,13 @@
 /* Utility styles and classes */
 
 html {
-	font-style: 65.7%;
+	font-size: 62.5%;
 	font-family: $helvetica;
 	font-weight: 300;
+}
+
+body {
+	font-size: 1.6rem;
 }
 
 %wrapper {
@@ -53,4 +57,15 @@ a {
 ul {
 	margin: 0;
 	padding: 0;
+}
+
+
+blockquote {
+	&::before {
+		content: '“';
+	}
+
+	&::after {
+		content: '”';
+	}
 }

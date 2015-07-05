@@ -363,9 +363,12 @@ html {
 
 /* Utility styles and classes */
 html {
-  font-style: 65.7%;
+  font-size: 62.5%;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300; }
+
+body {
+  font-size: 1.6rem; }
 
 .structural {
   display: none; }
@@ -399,15 +402,23 @@ ul {
   margin: 0;
   padding: 0; }
 
+blockquote::before {
+  content: '“'; }
+blockquote::after {
+  content: '”'; }
+
 /* Layout */
 .half {
   float: left;
   width: 50vw;
   padding: 0;
+  margin: 1rem 0;
   min-height: 200px; }
   @media all and (max-width: 600px) {
     .half {
       width: 100vw; } }
+  .half ul {
+    padding-left: 1.5rem; }
 
 iframe {
   width: 100%;
@@ -416,13 +427,31 @@ iframe {
   border: 0; }
 
 .opening {
-  height: 87.5vh;
-  background-image: url("../img/hero.jpg");
+  height: 90vh;
+  background-image: url("../img/hero1.jpg");
+  animation: image 10s infinite ease-in-out;
+  -webkit-animation: image 10s infinite ease-in-out;
   background-position: center; }
+@keyframes image {
+  0%, 100% {
+    background-image: url(../img/hero1.jpg); }
+  33% {
+    background-image: url(../img/hero3.jpg); }
+  66% {
+    background-image: url(../img/hero3.jpg); } }
+@-webkit-keyframes image {
+  0%, 100% {
+    background-image: url(../img/hero1.jpg); }
+  33% {
+    background-image: url(../img/hero3.jpg); }
+  66% {
+    background-image: url(../img/hero3.jpg); } }
   .opening form {
+    margin: 0 auto;
     font-family: "Open Sans", sans-serif;
     padding: 1rem;
-    text-align: center; }
+    text-align: center;
+    max-width: 98rem; }
     .opening form input {
       color: #1e1e1e; }
     .opening form label {
@@ -432,16 +461,20 @@ iframe {
     color: #1e1e1e;
     width: 30%;
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    margin-top: 20vh; }
     .opening .overlay h3 {
       font-size: 3rem;
       margin: 0; }
+    .opening .overlay p {
+      padding: 1rem; }
 
 blockquote {
   float: left;
   font-style: italic; }
   blockquote cite {
-    font-style: regular;
+    margin-top: 1rem;
+    font-style: normal;
     float: right; }
 
 .icons {
