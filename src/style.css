@@ -355,6 +355,12 @@ th {
   padding: 0; }
 
 /* Beginning of the stylesheet */
+html {
+  background-color: #F00; }
+
+* {
+  box-shadow: inset 0 0 0 1px rgba(0, 255, 0, 0.1); }
+
 /* Utility styles and classes */
 html {
   font-style: 65.7%;
@@ -533,6 +539,11 @@ footer {
   content: ""; }
 
 /* image replacement */
+#wtf, #tam, #atg, #gv {
+  width: 50%;
+  height: 8rem;
+  float: left; }
+
 #wtf {
   background-image: url("../img/logo-world-travel-magazine.svg"); }
 
