@@ -3,15 +3,43 @@
 	@extend %ir;
 	background-image: url("../img/logo-world-travel-magazine.svg")
 } //todo
+
 #tam {
 	@extend %ir;
 	background-image: url("../img/logo-travel-agent-magazine.svg")
 } //todo
+
 #atg {
 	@extend %ir;
 	background-image: url("../img/logo-around-the-globe.svg")
 } //todo
+
 #gv  {
 	@extend %ir;
 	background-image: url("../img/logo-govacation.svg")
 } //todo
+
+#wifi {
+	@extend %ir;
+	background-image: url("../img/wifi.svg"); //todo
+}
+
+#furn {
+	@extend %ir;
+	background-image: url("../img/furnished.svg"); //todo
+}
+
+#park {
+	@extend %ir;
+	background-image: url("../img/parking.svg"); //todo
+}
+
+#airp {
+	@extend %ir;
+	background-image: url("../img/airport.svg"); //todo
+}
+
+#clean {
+	@extend %ir;
+	background-image: url("../img/clean.svg"); //todo
+}

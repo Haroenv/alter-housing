@@ -370,7 +370,7 @@ html {
 .structural {
   display: none; }
 
-#wtf, #tam, #atg, #gv {
+#wtf, #tam, #atg, #gv, #wifi, #furn, #park, #airp, #clean {
   display: block;
   background-size: 100%;
   text-indent: 100%;
@@ -528,5 +528,20 @@ footer {
 
 #gv {
   background-image: url("../img/logo-govacation.svg"); }
+
+#wifi {
+  background-image: url("../img/wifi.svg"); }
+
+#furn {
+  background-image: url("../img/furnished.svg"); }
+
+#park {
+  background-image: url("../img/parking.svg"); }
+
+#airp {
+  background-image: url("../img/airport.svg"); }
+
+#clean {
+  background-image: url("../img/clean.svg"); }
 
 /*# sourceMappingURL=style.css.map */
