@@ -1,34 +1,34 @@
 /* image replacement */
 
-%logos {
-	width: 50%;
-	height: 8rem;
-	float: left;
-}
+// %logos {
+// 	width: 50%;
+// 	height: 8rem;
+// 	float: left;
+// }
 
-#wtf {
-	@extend %ir;
-	@extend %logos;
-	background-image: url("../img/logo-world-travel-magazine.svg")
-} //todo
+// #wtf {
+// 	@extend %ir;
+// 	@extend %logos;
+// 	background-image: url("../img/logo-world-travel-magazine.png")
+// } //todo
 
-#tam {
-	@extend %ir;
-	@extend %logos;
-	background-image: url("../img/logo-travel-agent-magazine.svg")
-} //todo
+// #tam {
+// 	@extend %ir;
+// 	@extend %logos;
+// 	background-image: url("../img/logo-travel-agent-magazine.png")
+// } //todo
 
-#atg {
-	@extend %ir;
-	@extend %logos;
-	background-image: url("../img/logo-around-the-globe.svg")
-} //todo
+// #atg {
+// 	@extend %ir;
+// 	@extend %logos;
+// 	background-image: url("../img/logo-around-the-globe.png")
+// } //todo
 
-#gv  {
-	@extend %ir;
-	@extend %logos;
-	background-image: url("../img/logo-govacation.svg")
-} //todo
+// #gv  {
+// 	@extend %ir;
+// 	@extend %logos;
+// 	background-image: url("../img/logo-govacation.png")
+// } //todo
 
 %icons {
 	width: 4rem;
