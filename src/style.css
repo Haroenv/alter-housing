@@ -404,7 +404,7 @@ blockquote::after {
 /* Layout */
 .half-wrapper .half {
   float: left;
-  width: 50vw;
+  width: 40vw;
   padding: 0;
   margin: 1rem 0;
   min-height: 200px; }
@@ -415,7 +415,12 @@ blockquote::after {
     padding-left: 2rem; }
   @media all and (min-width: 600px) {
     .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
-      background-color: #f4f4f4; } }
+      background-color: #f4f4f4; }
+    .half-wrapper .half:nth-of-type(2n) {
+      padding-right: 5vw;
+      background-color: #F00 !important; }
+    .half-wrapper .half:nth-of-type(2n-1) {
+      padding-left: 5vw; } }
 
 iframe {
   width: 100%;
@@ -467,7 +472,7 @@ blockquote {
 .imageblock li {
   list-style-type: none;
   display: inline-block;
-  width: 50%; }
+  width: 49%; }
   .imageblock li img {
     width: 100%;
     height: auto;

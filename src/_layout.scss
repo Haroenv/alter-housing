@@ -3,7 +3,7 @@
 .half-wrapper {
 	.half {
 		float: left;
-		width: 50vw;
+		width: 40vw;
 		padding: 0;
 		margin: 1rem 0;
 		min-height: 200px;
@@ -20,6 +20,14 @@
 		@media all and (min-width: 600px) {
 			&:nth-of-type(4n), &:nth-of-type(4n-1) {
 				background-color: $light-medium;
+			}
+
+			&:nth-of-type(2n) {
+				padding-right: 5vw;
+				background-color: #F00 !important;
+			}
+			&:nth-of-type(2n-1) {
+				padding-left: 5vw;
 			}
 		}
 	}
@@ -99,7 +107,7 @@ blockquote {
 	li {
 		list-style-type: none;
 		display: inline-block;
-		width: 50%;
+		width: 49%;
 		img {
 			width: 100%;
 			height: auto;
