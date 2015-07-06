@@ -413,6 +413,8 @@ blockquote::after {
       width: 100vw; } }
   .half ul {
     padding-left: 2rem; }
+  .half:nth-of-type(4n), .half:nth-of-type(4n-1) {
+    background-color: #f4f4f4; }
 
 iframe {
   width: 100%;
@@ -433,8 +435,6 @@ iframe {
     max-width: 98rem; }
     .opening form input {
       color: #1e1e1e; }
-    .opening form label {
-      clear: right; }
   .opening .overlay {
     background-color: rgba(255, 255, 255, 0.5);
     color: #1e1e1e;
