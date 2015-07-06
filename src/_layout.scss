@@ -15,8 +15,11 @@
 		padding-left: 2rem;
 	}
 
-	&:nth-of-type(4n), &:nth-of-type(4n-1) {
-		background-color: $light-medium;
+	// TODO: fix this
+	@media all and (min-width: 600px) {
+		&:nth-of-type(4n), &:nth-of-type(4n-1) {
+			background-color: $light-medium;
+		}
 	}
 }
 

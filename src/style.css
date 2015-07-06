@@ -413,8 +413,9 @@ blockquote::after {
       width: 100vw; } }
   .half ul {
     padding-left: 2rem; }
-  .half:nth-of-type(4n), .half:nth-of-type(4n-1) {
-    background-color: #f4f4f4; }
+  @media all and (min-width: 600px) {
+    .half:nth-of-type(4n), .half:nth-of-type(4n-1) {
+      background-color: #f4f4f4; } }
 
 iframe {
   width: 100%;
