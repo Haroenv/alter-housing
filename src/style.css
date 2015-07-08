@@ -417,8 +417,7 @@ blockquote::after {
     .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
       background-color: #f4f4f4; }
     .half-wrapper .half:nth-of-type(2n) {
-      padding-right: 5vw;
-      background-color: #F00 !important; }
+      padding-right: 5vw; }
     .half-wrapper .half:nth-of-type(2n-1) {
       padding-left: 5vw; } }
 
