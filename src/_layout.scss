@@ -23,11 +23,10 @@
 			}
 
 			&:nth-of-type(2n) {
-				padding-right: 5vw;
-				//background-color: #F00 !important; //TODO
+				padding-right: 10vw;
 			}
 			&:nth-of-type(2n-1) {
-				padding-left: 5vw;
+				padding-left: 10vw;
 			}
 		}
 	}

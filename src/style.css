@@ -417,9 +417,9 @@ blockquote::after {
     .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
       background-color: #f4f4f4; }
     .half-wrapper .half:nth-of-type(2n) {
-      padding-right: 5vw; }
+      padding-right: 10vw; }
     .half-wrapper .half:nth-of-type(2n-1) {
-      padding-left: 5vw; } }
+      padding-left: 10vw; } }
 
 iframe {
   width: 100%;
