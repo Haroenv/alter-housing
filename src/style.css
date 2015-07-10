@@ -468,14 +468,17 @@ blockquote {
     margin: 0 1rem;
     display: inline-block; }
 
-.imageblock li {
-  list-style-type: none;
-  display: inline-block;
-  width: 49%; }
-  .imageblock li img {
-    width: 100%;
-    height: auto;
-    margin: 0; }
+.imageblock {
+  background-color: #fff; }
+  .imageblock li {
+    list-style-type: none;
+    display: inline-block;
+    width: 30%;
+    margin: 0 9%; }
+    .imageblock li img {
+      width: 100%;
+      height: auto;
+      margin: 0; }
 
 /* header and footer */
 header {

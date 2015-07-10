@@ -103,10 +103,12 @@ blockquote {
 }
 
 .imageblock {
+	background-color: $light;
 	li {
 		list-style-type: none;
 		display: inline-block;
-		width: 49%;
+		width: 30%;
+		margin: 0 9%;
 		img {
 			width: 100%;
 			height: auto;
