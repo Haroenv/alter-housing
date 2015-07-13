@@ -402,24 +402,28 @@ blockquote::after {
   content: '”'; }
 
 /* Layout */
-.half-wrapper .half {
-  float: left;
-  width: 40vw;
-  padding: 0;
-  margin: 1rem 0;
-  min-height: 200px; }
-  @media all and (max-width: 600px) {
-    .half-wrapper .half {
-      width: 100vw; } }
-  .half-wrapper .half ul {
-    padding-left: 2rem; }
-  @media all and (min-width: 600px) {
-    .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
-      background-color: #f4f4f4; }
-    .half-wrapper .half:nth-of-type(2n) {
-      padding-right: 10vw; }
-    .half-wrapper .half:nth-of-type(2n-1) {
-      padding-left: 10vw; } }
+.half-wrapper {
+  overflow: hidden;
+  width: 100vw; }
+  .half-wrapper .half {
+    float: left;
+    width: 40vw;
+    padding: 0;
+    margin: 1rem 0;
+    min-height: 200px;
+    /* TODO: fix this */ }
+    @media all and (max-width: 600px) {
+      .half-wrapper .half {
+        width: 100vw; } }
+    .half-wrapper .half ul {
+      padding-left: 2rem; }
+    @media all and (min-width: 600px) {
+      .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
+        background-color: #f4f4f4; }
+      .half-wrapper .half:nth-of-type(2n) {
+        padding-right: 10vw; }
+      .half-wrapper .half:nth-of-type(2n-1) {
+        padding-left: 10vw; } }
 
 iframe {
   width: 100%;
