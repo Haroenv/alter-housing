@@ -37,3 +37,15 @@ $icons: (
 		@extend %icon;
 	}
 }
+
+.social {
+	visibility: hidden;
+	display: inline-block;
+	font-size: 0.01px; /*hide the space the text will still take up*/
+	margin: 0.5rem;
+
+	&:before {
+		visibility: visible;
+		font-size: 1.6rem;
+	}
+}

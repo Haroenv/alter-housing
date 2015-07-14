@@ -76,6 +76,12 @@ ul {
   margin: 0;
   padding: 0; }
 
+ul {
+  padding-left: 2rem; }
+  ul li {
+    margin: 1rem;
+    list-style-type: disc; }
+
 blockquote {
   margin: 1rem; }
   blockquote::before {
@@ -96,11 +102,6 @@ blockquote {
     @media all and (max-width: 600px) {
       .half-wrapper .half {
         width: 100vw; } }
-    .half-wrapper .half ul {
-      padding-left: 2rem; }
-      .half-wrapper .half ul li {
-        margin: 1rem;
-        list-style-type: disc; }
     .half-wrapper .half h2 {
       font-family: "Open Sans Condensed", sans-serif;
       padding: 1.5rem 0; }
@@ -230,6 +231,7 @@ footer {
     margin: 0;
     padding: 1rem; }
     footer > ul > li {
+      margin: 0;
       vertical-align: text-top;
       display: inline-block;
       width: 33%; }
@@ -284,6 +286,16 @@ footer {
 
 .amex::before {
   content: ""; }
+
+.social {
+  visibility: hidden;
+  display: inline-block;
+  font-size: 0.01px;
+  /*hide the space the text will still take up*/
+  margin: 0.5rem; }
+  .social:before {
+    visibility: visible;
+    font-size: 1.6rem; }
 
 /* image replacement */
 #wifi, #furn, #park, #airp, #clean {

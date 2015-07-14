@@ -15,15 +15,6 @@
 			width: 100vw;
 		}
 
-		ul {
-			padding-left: 2rem;
-
-			li {
-				margin: 1rem;
-				list-style-type: disc;
-			}
-		}
-
 		h2 {
 			font-family: $condensed;
 			padding: 1.5rem 0;
@@ -141,6 +132,7 @@ blockquote {
 		display: inline-block;
 		width: 30%;
 		margin: 0 9%;
+
 		img {
 			width: 100%;
 			height: auto;
