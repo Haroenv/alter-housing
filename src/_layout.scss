@@ -75,10 +75,22 @@ iframe {
 
 		input {
 			color: $dark;
+			font-size: inherit;
+			&:focus {
+				background-color: $medium;
+			}
+
 		}
 
 		label {
-			//
+			font-size: 1.2rem;
+		}
+
+		input[type=submit] {
+			background-color: $light;
+			border: none;
+			font-family: $sans;
+			padding: 0 2rem;
 		}
 	}
 
