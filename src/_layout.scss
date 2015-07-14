@@ -7,9 +7,10 @@
 		float: left;
 		width: 40vw;
 		padding: 0;
-		margin: 1rem 0;
 		min-height: 200px;
+
 		@extend %clearfix;
+
 		@media all and (max-width: 600px) {
 			width: 100vw;
 		}
@@ -32,6 +33,13 @@
 			}
 		}
 	}
+}
+
+.full {
+	width: 80vw;
+	padding: 0 10vw;
+	font-family: $condensed;
+	background: $light-medium;
 }
 
 iframe {

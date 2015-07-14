@@ -61,6 +61,7 @@ ul {
 
 
 blockquote {
+	margin: 1rem;
 	&::before {
 		content: '“';
 	}
