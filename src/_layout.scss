@@ -17,6 +17,16 @@
 
 		ul {
 			padding-left: 2rem;
+
+			li {
+				margin: 1rem;
+				list-style-type: disc;
+			}
+		}
+
+		h2 {
+			font-family: $condensed;
+			padding: 1.5rem 0;
 		}
 
 		/* TODO: fix this */

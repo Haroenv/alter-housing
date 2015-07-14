@@ -1,16 +1,19 @@
 /* header and footer */
 header {
+
 	@extend %dark;
 
 	h1 {
 		margin: 0;
 		float: left;
+		/* make this align to the bottom */
 	}
 
 	p {
 		font-family: $condensed;
 		margin: 0;
 		float: left;
+		/* make this align to the bottom */
 	}
 
 	@extend %clearfix;
@@ -22,6 +25,7 @@ header {
 	}
 
 	margin: 0;
+	/* make this align to the bottom */
 }
 
 nav {
@@ -78,6 +82,7 @@ footer {
 	}
 
 	& li {
+		padding: 0.3rem 0;
 		list-style-type: none;
 	}
 }
