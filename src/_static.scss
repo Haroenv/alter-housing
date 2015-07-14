@@ -42,7 +42,7 @@ nav {
 			color: $dark;
 			padding: 0.5rem 1rem;
 
-			.active {
+			&.active {
 				color: $medium;
 			}
 		}
@@ -73,7 +73,17 @@ footer {
 		}
 	}
 
+	ul {
+		padding: 0 10vw;
+	}
+
 	& li {
 		list-style-type: none;
 	}
+}
+
+.copy {
+	text-align: center;
+	margin: 2rem;
+	color: $medium;
 }
