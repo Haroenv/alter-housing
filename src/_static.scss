@@ -69,7 +69,11 @@ footer {
 			margin: 0;
 			vertical-align: text-top;
 			display: inline-block;
-			width: 33%;
+			@media screen and (max-width: 537px) {
+				display: list-item;
+				margin: 0 auto;
+			}
+			width: 32%;
 
 			ul {
 				padding: 0;
@@ -79,6 +83,9 @@ footer {
 
 	ul {
 		padding: 0 10vw;
+		@media screen and (max-width: 660px) {
+			padding: 0;
+		}
 	}
 
 	& li {

@@ -11,7 +11,7 @@
 
 		@extend %clearfix;
 
-		@media all and (max-width: 600px) {
+		@media all and (max-width: 720px) {
 			width: 100vw;
 		}
 
@@ -21,7 +21,7 @@
 		}
 
 		/* TODO: fix this */
-		@media all and (min-width: 600px) {
+		@media all and (min-width: 720px) {
 			&:nth-of-type(4n), &:nth-of-type(4n-1) {
 				background-color: $light-medium;
 			}
@@ -72,6 +72,7 @@ iframe {
 		div {
 			float: left;
 			margin: 1rem;
+			width: 18%;
 
 			input {
 				clear: left;
@@ -92,7 +93,7 @@ iframe {
 				font-family: $sans;
 				padding: 0 2rem;
 				float: right;
-				margin: 2rem 1rem;
+				margin: 2rem 1rem; /* help */
 			}
 
 			&:focus {
@@ -143,6 +144,10 @@ blockquote {
 .icons {
 	text-align: center;
 	margin: 1rem;
+
+	ul {
+		margin: 0; /*breaks at 641px*/
+	}
 
 	li {
 		margin: 0 1rem;
