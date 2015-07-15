@@ -201,18 +201,16 @@ blockquote {
 /* header and footer */
 header {
   margin: 0;
-  /* make this align to the bottom */ }
+  padding: 1rem; }
   header h1 {
     margin: 0;
-    float: left;
-    /* make this align to the bottom */ }
+    float: left; }
   header p {
     font-family: "Open Sans Condensed", sans-serif;
-    margin: 0;
+    margin: 1rem;
     float: left;
     font-size: 2rem;
-    height: 100%;
-    /* make this align to the bottom */ }
+    height: 100%; }
   header li {
     list-style-type: none;
     display: inline-block;
