@@ -35,6 +35,12 @@ table {
   border-spacing: 0; }
 
 /* Beginning of the stylesheet */
+html {
+  background-color: #F00; }
+
+* {
+  box-shadow: inset 0 0 0 1px rgba(0, 255, 0, 0.1); }
+
 /* Utility styles and classes */
 html {
   font-size: 62.5%;
@@ -115,9 +121,12 @@ blockquote {
 
 .full {
   width: 80vw;
-  padding: 0 10vw;
+  padding: 2rem 10vw;
   font-family: "Open Sans Condensed", sans-serif;
-  background: #f4f4f4; }
+  background: #f4f4f4;
+  font-size: 2rem; }
+  .full h2 {
+    margin: 1rem 0; }
 
 iframe {
   width: 100%;
@@ -154,7 +163,8 @@ iframe {
     width: 30%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20vh; }
+    margin-top: 20vh;
+    padding: 3rem; }
     .opening .overlay h3 {
       font-size: 3rem;
       margin: 0; }
@@ -200,6 +210,8 @@ header {
     font-family: "Open Sans Condensed", sans-serif;
     margin: 0;
     float: left;
+    font-size: 2rem;
+    height: 100%;
     /* make this align to the bottom */ }
   header li {
     list-style-type: none;

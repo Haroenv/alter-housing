@@ -38,9 +38,14 @@
 
 .full {
 	width: 80vw;
-	padding: 0 10vw;
+	padding: 2rem 10vw;
 	font-family: $condensed;
 	background: $light-medium;
+	font-size: 2rem;
+
+	h2 {
+		margin: 1rem 0;
+	}
 }
 
 iframe {
@@ -92,6 +97,7 @@ iframe {
 		margin: 0 auto;
 		text-align: center;
 		margin-top: 20vh;
+		padding: 3rem;
 
 		h3 {
 			font-size: 3rem;
