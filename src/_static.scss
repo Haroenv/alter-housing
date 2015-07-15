@@ -74,6 +74,9 @@ footer {
 				margin: 0 auto;
 			}
 			width: 32%;
+			@media screen and (max-width: 660px) {
+				width: 100%;
+			}
 
 			ul {
 				padding: 0;
@@ -81,11 +84,14 @@ footer {
 		}
 	}
 
+	@media screen and (max-width: 660px) {
+		div {
+			text-align: center;
+		}
+	}
+
 	ul {
 		padding: 0 10vw;
-		@media screen and (max-width: 660px) {
-			padding: 0;
-		}
 	}
 
 	& li {

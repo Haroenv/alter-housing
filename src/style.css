@@ -96,7 +96,7 @@ blockquote {
   .half-wrapper .half {
     float: left;
     width: 40vw;
-    padding: 0;
+    padding: 1rem;
     min-height: 200px;
     /* TODO: fix this */ }
     @media all and (max-width: 720px) {
@@ -109,9 +109,9 @@ blockquote {
       .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
         background-color: #f4f4f4; }
       .half-wrapper .half:nth-of-type(2n) {
-        padding-right: 10vw; }
+        padding: 0 10vw 0 0; }
       .half-wrapper .half:nth-of-type(2n-1) {
-        padding-left: 10vw; } }
+        padding: 0 0 0 10vw; } }
 
 .full {
   width: 80vw;
@@ -149,12 +149,14 @@ iframe {
       float: left; }
     .opening form input {
       color: #1e1e1e;
-      font-size: inherit; }
+      font-size: inherit;
+      width: 100%; }
       .opening form input[type=submit] {
         background-color: #fff;
         border: none;
         font-family: "Open Sans", sans-serif;
         padding: 0 2rem;
+        width: initial;
         float: right;
         margin: 2rem 1rem;
         /* help */ }
@@ -171,6 +173,12 @@ iframe {
     text-align: center;
     margin-top: 20vh;
     padding: 3rem; }
+    @media all and (max-width: 850px) {
+      .opening .overlay {
+        width: 60%; } }
+    @media all and (max-width: 500px) {
+      .opening .overlay {
+        width: 100%; } }
     .opening .overlay h3 {
       font-size: 3rem;
       margin: 0; }
@@ -259,13 +267,16 @@ footer {
         footer > ul > li {
           display: list-item;
           margin: 0 auto; } }
+      @media screen and (max-width: 660px) {
+        footer > ul > li {
+          width: 100%; } }
       footer > ul > li ul {
         padding: 0; }
+  @media screen and (max-width: 660px) {
+    footer div {
+      text-align: center; } }
   footer ul {
     padding: 0 10vw; }
-    @media screen and (max-width: 660px) {
-      footer ul {
-        padding: 0; } }
   footer li {
     padding: 0.3rem 0;
     list-style-type: none; }
