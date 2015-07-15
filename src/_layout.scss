@@ -69,6 +69,18 @@ iframe {
 		text-align: center;
 		max-width: 98rem;
 
+		div {
+			float: left;
+
+			input, label {
+				float: left;
+			}
+
+			label {
+				clear: right;
+			}
+		}
+
 		input {
 			color: $dark;
 			font-size: inherit;
