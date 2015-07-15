@@ -71,36 +71,40 @@ iframe {
 
 		div {
 			float: left;
-
-			input, label {
-				float: left;
-			}
+			margin: 1rem;
 
 			input {
 				clear: left;
 			}
 		}
 
+		input, label {
+			float: left;
+		}
+
 		input {
 			color: $dark;
 			font-size: inherit;
+
+			&[type=submit] {
+				background-color: $light;
+				border: none;
+				font-family: $sans;
+				padding: 0 2rem;
+				float: right;
+				margin: 2rem 1rem;
+			}
+
 			&:focus {
 				background-color: $medium;
 				color: $light;
 			}
-
 		}
 
 		label {
 			font-size: 1.2rem;
 		}
 
-		input[type=submit] {
-			background-color: $light;
-			border: none;
-			font-family: $sans;
-			padding: 0 2rem;
-		}
 
 		@extend %clearfix;
 	}

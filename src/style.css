@@ -140,24 +140,27 @@ iframe {
     text-align: center;
     max-width: 98rem; }
     .opening form div {
-      float: left; }
-      .opening form div input, .opening form div label {
-        float: left; }
+      float: left;
+      margin: 1rem; }
       .opening form div input {
         clear: left; }
+    .opening form input, .opening form label {
+      float: left; }
     .opening form input {
       color: #1e1e1e;
       font-size: inherit; }
+      .opening form input[type=submit] {
+        background-color: #fff;
+        border: none;
+        font-family: "Open Sans", sans-serif;
+        padding: 0 2rem;
+        float: right;
+        margin: 2rem 1rem; }
       .opening form input:focus {
         background-color: #70716c;
         color: #fff; }
     .opening form label {
       font-size: 1.2rem; }
-    .opening form input[type=submit] {
-      background-color: #fff;
-      border: none;
-      font-family: "Open Sans", sans-serif;
-      padding: 0 2rem; }
   .opening .overlay {
     background-color: rgba(255, 255, 255, 0.5);
     color: #1e1e1e;
@@ -237,6 +240,7 @@ nav {
 footer {
   clear: both; }
   footer h3 {
+    margin: 1rem;
     font-family: "Open Sans Condensed", sans-serif; }
   footer > ul {
     margin: 0;
@@ -303,7 +307,7 @@ footer {
   display: inline-block;
   font-size: 0.01px;
   /*hide the space the text will still take up*/
-  margin: 0.5rem; }
+  margin: 1rem; }
   .social:before {
     visibility: visible;
     font-size: 1.6rem; }
