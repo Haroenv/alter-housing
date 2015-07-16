@@ -54,7 +54,7 @@ body {
   white-space: nowrap;
   overflow: hidden; }
 
-.half-wrapper .half:after, .opening form:after, header:after, footer > ul:after {
+.half-wrapper:after, .half-wrapper .half:after, .opening form:after, header:after, footer > ul:after {
   content: "";
   display: table;
   clear: both; }
@@ -91,27 +91,22 @@ blockquote {
 
 /* Layout */
 .half-wrapper {
-  overflow: hidden;
-  width: 100vw; }
+  overflow: hidden; }
+  @media all and (min-width: 720px) {
+    .half-wrapper {
+      padding: 0 10vw; } }
+  .half-wrapper:nth-of-type(2n+1) {
+    background-color: #f4f4f4; }
   .half-wrapper .half {
     float: left;
-    width: 40vw;
-    padding: 1rem;
-    min-height: 200px;
-    /* TODO: fix this */ }
+    width: 50%;
+    min-height: 200px; }
     @media all and (max-width: 720px) {
       .half-wrapper .half {
         width: 100vw; } }
     .half-wrapper .half h2 {
       font-family: "Open Sans Condensed", sans-serif;
       padding: 1.5rem 0; }
-    @media all and (min-width: 720px) {
-      .half-wrapper .half:nth-of-type(4n), .half-wrapper .half:nth-of-type(4n-1) {
-        background-color: #f4f4f4; }
-      .half-wrapper .half:nth-of-type(2n) {
-        padding: 0 10vw 0 0; }
-      .half-wrapper .half:nth-of-type(2n-1) {
-        padding: 0 0 0 10vw; } }
 
 .full {
   width: 80vw;
@@ -151,7 +146,7 @@ iframe {
       color: #1e1e1e;
       font-size: inherit;
       width: 100%;
-      border: 2px solid #F2CFB5;
+      border: 1px solid #F2CFB5;
       border-radius: 2px; }
       .opening form input[type=submit] {
         background-color: #fff;
@@ -163,8 +158,7 @@ iframe {
         margin: 2.3rem 1rem;
         /* help */ }
       .opening form input:focus {
-        background-color: #70716c;
-        color: #fff; }
+        border: none; }
     .opening form label {
       font-size: 1.2rem; }
   .opening .overlay {
