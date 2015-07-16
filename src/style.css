@@ -93,7 +93,7 @@ blockquote {
   color: #1e1e1e;
   background-color: #fff;
   border-radius: 2px;
-  padding: 1rem;
+  padding: 0.2rem 2rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
