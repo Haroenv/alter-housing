@@ -35,12 +35,6 @@ table {
   border-spacing: 0; }
 
 /* Beginning of the stylesheet */
-html {
-  background-color: #F00; }
-
-* {
-  box-shadow: inset 0 0 0 1px rgba(0, 255, 0, 0.1); }
-
 /* Utility styles and classes */
 html {
   font-size: 62.5%;
