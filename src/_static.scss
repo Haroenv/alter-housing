@@ -65,15 +65,18 @@ footer {
 		margin: 0;
 		padding: 1rem;
 
+		@extend %clearfix;
+
 		& > li {
 			margin: 0;
 			vertical-align: text-top;
-			display: inline-block;
+			display: block;
+			float: left;
 			@media screen and (max-width: 537px) {
 				display: list-item;
 				margin: 0 auto;
 			}
-			width: 100 / 3 * 1%; /*this isn't centered ...*/
+			width: percentage(1/3);
 			@media screen and (max-width: 660px) {
 				width: 100%;
 			}

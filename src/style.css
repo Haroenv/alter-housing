@@ -60,7 +60,7 @@ body {
   white-space: nowrap;
   overflow: hidden; }
 
-.half-wrapper .half:after, .opening form:after, header:after {
+.half-wrapper .half:after, .opening form:after, header:after, footer > ul:after {
   content: "";
   display: table;
   clear: both; }
@@ -269,9 +269,9 @@ footer {
     footer > ul > li {
       margin: 0;
       vertical-align: text-top;
-      display: inline-block;
-      width: 33.33333%;
-      /*this isn't centered ...*/ }
+      display: block;
+      float: left;
+      width: 33.33333%; }
       @media screen and (max-width: 537px) {
         footer > ul > li {
           display: list-item;
