@@ -237,14 +237,17 @@ header {
         display: none; } }
   @media all and (max-width: 925px) {
     header ul {
-      clear: left; }
+      clear: left;
+      width: 100%; }
       header ul li {
-        margin: 1rem 0; } }
+        width: 33.33333%;
+        margin: 1rem 0;
+        float: left; } }
   header ul {
     float: right; }
   header li {
     list-style-type: none;
-    display: inline-block; }
+    display: block; }
     @media all and (max-width: 500px) {
       header li {
         width: 100%; } }
