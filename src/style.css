@@ -89,6 +89,17 @@ blockquote {
   blockquote::after {
     content: '”'; }
 
+.button {
+  color: #1e1e1e;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
 /* Layout */
 .half-wrapper {
   overflow: hidden; }
@@ -241,13 +252,13 @@ header {
       width: 100%; }
       header ul li {
         width: 33.33333%;
-        margin: 1rem 0;
-        float: left; } }
+        margin: 1rem 0; } }
   header ul {
     float: right; }
   header li {
     list-style-type: none;
-    display: block; }
+    display: block;
+    float: left; }
     @media all and (max-width: 500px) {
       header li {
         width: 100%; } }

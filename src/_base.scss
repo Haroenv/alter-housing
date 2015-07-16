@@ -78,3 +78,15 @@ blockquote {
 		content: '”';
 	}
 }
+
+.button {
+	color: $dark;
+	background-color: $light;
+	border-radius: 2px;
+	padding: 1rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
