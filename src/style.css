@@ -150,7 +150,9 @@ iframe {
     .opening form input {
       color: #1e1e1e;
       font-size: inherit;
-      width: 100%; }
+      width: 100%;
+      border: 2px solid #F2CFB5;
+      border-radius: 2px; }
       .opening form input[type=submit] {
         background-color: #fff;
         border: none;

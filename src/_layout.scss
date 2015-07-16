@@ -87,6 +87,8 @@ iframe {
 			color: $dark;
 			font-size: inherit;
 			width: 100%;
+			border: 2px solid #F2CFB5;
+			border-radius: 2px;
 
 			&[type=submit] {
 				background-color: $light;
