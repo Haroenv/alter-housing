@@ -63,7 +63,6 @@ iframe {
 .opening {
 	height: 90vh;
 	background-image: url("../img/hero.jpg");
-	-webkit-animation: image 10s infinite ease-in-out;
 	background-position: center;
 
 	form {
@@ -78,7 +77,11 @@ iframe {
 			float: left;
 			margin: 1rem;
 			width: 18%;
-
+			@media all and (max-width: 705px) {
+				text-align: center;
+				width: 60%;
+				margin: 1rem 20%;
+			}
 			input {
 				clear: left;
 			}
@@ -94,15 +97,19 @@ iframe {
 			width: 100%;
 			border: 1px solid #F2CFB5;
 			border-radius: 2px;
+			font-family: $sans;
 
 			&[type=submit] {
 				background-color: $light;
 				border: none;
-				font-family: $sans;
 				padding: 0 2rem;
 				width: initial;
 				float: right;
 				margin: 2.3rem 1rem; /* help */
+				@media all and (max-width: 705px) {
+					width: 60%;
+					margin: 1rem 20%;
+				}
 			}
 
 			&:focus {

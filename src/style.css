@@ -126,7 +126,6 @@ iframe {
 .opening {
   height: 90vh;
   background-image: url("../img/hero.jpg");
-  -webkit-animation: image 10s infinite ease-in-out;
   background-position: center; }
   .opening form {
     margin: 0 auto;
@@ -138,6 +137,11 @@ iframe {
       float: left;
       margin: 1rem;
       width: 18%; }
+      @media all and (max-width: 705px) {
+        .opening form div {
+          text-align: center;
+          width: 60%;
+          margin: 1rem 20%; } }
       .opening form div input {
         clear: left; }
     .opening form input, .opening form label {
@@ -147,16 +151,20 @@ iframe {
       font-size: inherit;
       width: 100%;
       border: 1px solid #F2CFB5;
-      border-radius: 2px; }
+      border-radius: 2px;
+      font-family: "Open Sans", sans-serif; }
       .opening form input[type=submit] {
         background-color: #fff;
         border: none;
-        font-family: "Open Sans", sans-serif;
         padding: 0 2rem;
         width: initial;
         float: right;
         margin: 2.3rem 1rem;
         /* help */ }
+        @media all and (max-width: 705px) {
+          .opening form input[type=submit] {
+            width: 60%;
+            margin: 1rem 20%; } }
       .opening form input:focus {
         border: none; }
     .opening form label {
@@ -224,22 +232,37 @@ header {
     float: left;
     font-size: 2rem;
     height: 100%; }
+    @media all and (max-width: 520px) {
+      header p {
+        display: none; } }
+  @media all and (max-width: 925px) {
+    header ul {
+      clear: left; }
+      header ul li {
+        margin: 1rem 0; } }
+  header ul {
+    float: right; }
   header li {
     list-style-type: none;
-    display: inline-block;
-    float: right; }
+    display: inline-block; }
+    @media all and (max-width: 500px) {
+      header li {
+        width: 100%; } }
 
 nav {
   background-color: #fff;
   text-align: center; }
   nav li {
     list-style-type: none;
-    display: inline-block;
+    display: block;
     float: none;
     padding: 0.5rem 1rem;
     margin: 0.4rem 0; }
-    nav li:not(:last-child) {
-      border-right: 1px solid #70716c; }
+    @media all and (min-width: 425px) {
+      nav li {
+        display: inline-block; }
+        nav li:not(:last-child) {
+          border-right: 1px solid #70716c; } }
     nav li a {
       color: #1e1e1e;
       padding: 0.5rem 1rem; }
