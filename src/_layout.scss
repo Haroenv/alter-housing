@@ -19,7 +19,7 @@
 		overflow: hidden;
 
 		img, iframe {
-			max-height: 400px;
+			max-height: 350px;
 		}
 
 		@extend %clearfix;
@@ -30,11 +30,26 @@
 
 		h2 {
 			font-family: $condensed;
-			padding: 1.5rem 0;
+			padding-bottom: 1.5rem;
+		}
+
+		p {
+			padding-top: 1rem;
 		}
 
 		&:not(.image) {
 			padding: 2rem;
+		}
+
+		&.first {
+			background-color: #F00;
+			font-family: $condensed;
+			font-size: 2rem;
+			h2 {
+				background-color: $light;
+				width: 100vw;
+				clear: both;
+			}
 		}
 
 		//

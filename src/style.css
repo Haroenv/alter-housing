@@ -118,15 +118,25 @@ blockquote {
     min-height: 200px;
     overflow: hidden; }
     .half-wrapper .half img, .half-wrapper .half iframe {
-      max-height: 400px; }
+      max-height: 350px; }
     @media all and (max-width: 720px) {
       .half-wrapper .half {
         width: 100vw; } }
     .half-wrapper .half h2 {
       font-family: "Open Sans Condensed", sans-serif;
-      padding: 1.5rem 0; }
+      padding-bottom: 1.5rem; }
+    .half-wrapper .half p {
+      padding-top: 1rem; }
     .half-wrapper .half:not(.image) {
       padding: 2rem; }
+    .half-wrapper .half.first {
+      background-color: #F00;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-size: 2rem; }
+      .half-wrapper .half.first h2 {
+        background-color: #fff;
+        width: 100vw;
+        clear: both; }
 
 .full {
   width: 100%;
