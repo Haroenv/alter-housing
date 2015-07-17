@@ -111,7 +111,10 @@ blockquote {
   .half-wrapper .half {
     float: left;
     width: 50%;
-    min-height: 200px; }
+    min-height: 200px;
+    overflow: hidden; }
+    .half-wrapper .half img {
+      max-height: 400px; }
     @media all and (max-width: 720px) {
       .half-wrapper .half {
         width: 100vw; } }

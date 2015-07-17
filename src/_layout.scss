@@ -14,10 +14,13 @@
 
 	.half {
 		float: left;
-		//width: 40vw;
 		width: 50%;
-		//padding: 1rem;
 		min-height: 200px;
+		overflow: hidden;
+
+		img {
+			max-height: 400px;
+		}
 
 		@extend %clearfix;
 
@@ -29,6 +32,8 @@
 			font-family: $condensed;
 			padding: 1.5rem 0;
 		}
+
+
 
 		//
 		// 	&:nth-of-type(2n) {
