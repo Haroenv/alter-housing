@@ -12,6 +12,8 @@
 
 	@extend %clearfix;
 
+
+
 	.half {
 		float: left;
 		width: 50%;
@@ -42,9 +44,8 @@
 		}
 
 		&.first {
-			background-color: #F00;
 			font-family: $condensed;
-			font-size: 2rem;
+			font-size: 3rem;
 			h2 {
 				background-color: $light;
 				width: 100vw;
@@ -61,6 +62,15 @@
 		// 	}
 		// }
 	}
+}
+
+h2.first {
+	font-family: $condensed;
+	padding-bottom: 1.5rem;
+	font-size: 3rem;
+	background-color: $light;
+	padding: 1.5rem 10vw;
+	width: 100%;
 }
 
 .full {

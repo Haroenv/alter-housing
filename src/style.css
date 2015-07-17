@@ -130,13 +130,20 @@ blockquote {
     .half-wrapper .half:not(.image) {
       padding: 2rem; }
     .half-wrapper .half.first {
-      background-color: #F00;
       font-family: "Open Sans Condensed", sans-serif;
-      font-size: 2rem; }
+      font-size: 3rem; }
       .half-wrapper .half.first h2 {
         background-color: #fff;
         width: 100vw;
         clear: both; }
+
+h2.first {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
+  background-color: #fff;
+  padding: 1.5rem 10vw;
+  width: 100%; }
 
 .full {
   width: 100%;
@@ -284,8 +291,9 @@ header {
         width: 100%; } }
 
 nav {
-  background-color: #fff;
-  text-align: center; }
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 1rem; }
   nav li {
     list-style-type: none;
     display: block;

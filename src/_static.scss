@@ -50,8 +50,9 @@ header {
 }
 
 nav {
-	background-color: $light;
+	background-color: $light-medium;
 	text-align: center;
+	padding: 1rem;
 	li {
 		list-style-type: none;
 		display: block;
