@@ -39,10 +39,14 @@ table {
 html {
   font-size: 62.5%;
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  box-sizing: border-box; }
 
 body {
   font-size: 1.6rem; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
 
 .structural {
   display: none; }
@@ -113,7 +117,7 @@ blockquote {
     width: 50%;
     min-height: 200px;
     overflow: hidden; }
-    .half-wrapper .half img {
+    .half-wrapper .half img, .half-wrapper .half iframe {
       max-height: 400px; }
     @media all and (max-width: 720px) {
       .half-wrapper .half {
@@ -121,6 +125,8 @@ blockquote {
     .half-wrapper .half h2 {
       font-family: "Open Sans Condensed", sans-serif;
       padding: 1.5rem 0; }
+    .half-wrapper .half:not(.image) {
+      padding: 2rem; }
 
 .full {
   width: 80vw;
@@ -134,7 +140,7 @@ blockquote {
 iframe {
   width: 100%;
   height: 100%;
-  min-height: 200px;
+  min-height: 300px;
   border: 0; }
 
 .opening {
