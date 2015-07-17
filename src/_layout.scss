@@ -49,7 +49,7 @@
 }
 
 .full {
-	width: 80vw;
+	width: 100%;
 	padding: 2rem 10vw;
 	font-family: $condensed;
 	background: $light-medium;
@@ -116,6 +116,7 @@ iframe {
 				@media all and (max-width: 705px) {
 					width: 60%;
 					margin: 1rem 20%;
+					padding: 1rem 2rem;
 				}
 			}
 

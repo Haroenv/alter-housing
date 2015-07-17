@@ -129,7 +129,7 @@ blockquote {
       padding: 2rem; }
 
 .full {
-  width: 80vw;
+  width: 100%;
   padding: 2rem 10vw;
   font-family: "Open Sans Condensed", sans-serif;
   background: #f4f4f4;
@@ -184,7 +184,8 @@ iframe {
         @media all and (max-width: 705px) {
           .opening form input[type=submit] {
             width: 60%;
-            margin: 1rem 20%; } }
+            margin: 1rem 20%;
+            padding: 1rem 2rem; } }
       .opening form input:focus {
         border: none; }
     .opening form label {
