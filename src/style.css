@@ -51,13 +51,6 @@ body {
 .structural {
   display: none; }
 
-#wifi, #furn, #park, #airp, #clean {
-  display: block;
-  background-size: 100%;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden; }
-
 .half-wrapper:after, .half-wrapper .half:after, .opening form:after, header:after, footer > ul:after {
   content: "";
   display: table;
@@ -408,23 +401,8 @@ footer {
     font-size: 1.6rem; }
 
 /* image replacement */
-#wifi, #furn, #park, #airp, #clean {
-  width: 4rem;
-  height: 4rem; }
-
-#wifi {
-  background-image: url("../img/icon-wifi.png"); }
-
-#furn {
-  background-image: url("../img/icon-furnished.png"); }
-
-#park {
-  background-image: url("../img/icon-parking.png"); }
-
-#airp {
-  background-image: url("../img/icon-airport.png"); }
-
-#clean {
-  background-image: url("../img/icon-cleaning.png"); }
+#wifi, #furnished, #parking, #airport, #cleaning {
+  overflow: hidden;
+  position: relative; }
 
 /*# sourceMappingURL=style.css.map */

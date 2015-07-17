@@ -35,32 +35,58 @@
 	height: 4rem;
 }
 
+// #wifi {
+// 	@extend %ir;
+// 	@extend %icons;
+// 	background-image: url("../img/icon-wifi.png"); //todo
+// }
+
+// #furn {
+// 	@extend %ir;
+// 	@extend %icons;
+// 	background-image: url("../img/icon-furnished.png"); //todo
+// }
+
+// #park {
+// 	@extend %ir;
+// 	@extend %icons;
+// 	background-image: url("../img/icon-parking.png"); //todo
+// }
+
+// #airp {
+// 	@extend %ir;
+// 	@extend %icons;
+// 	background-image: url("../img/icon-airport.png"); //todo
+// }
+
+// #clean {
+// 	@extend %ir;
+// 	@extend %icons;
+// 	background-image: url("../img/icon-cleaning.png"); //todo
+// }
+
+%sprite {
+	overflow: hidden;
+	position: relative;
+}
+
 #wifi {
-	@extend %ir;
-	@extend %icons;
-	background-image: url("../img/icon-wifi.png"); //todo
-}
+	@extend %sprite;
 
-#furn {
-	@extend %ir;
-	@extend %icons;
-	background-image: url("../img/icon-furnished.png"); //todo
 }
+#furnished {
+	@extend %sprite;
 
-#park {
-	@extend %ir;
-	@extend %icons;
-	background-image: url("../img/icon-parking.png"); //todo
 }
+#parking {
+	@extend %sprite;
 
-#airp {
-	@extend %ir;
-	@extend %icons;
-	background-image: url("../img/icon-airport.png"); //todo
 }
+#airport {
+	@extend %sprite;
 
-#clean {
-	@extend %ir;
-	@extend %icons;
-	background-image: url("../img/icon-cleaning.png"); //todo
+}
+#cleaning {
+	@extend %sprite;
+
 }
