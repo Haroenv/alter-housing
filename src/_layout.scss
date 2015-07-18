@@ -94,8 +94,12 @@ iframe {
 
 .opening {
 	height: 90vh;
+	@media all and (max-width: 705px) {
+		height: 120vh;
+	}
 	background-image: url("../img/hero.jpg");
 	background-position: center;
+	background-size: cover;
 
 	form {
 		margin: 0 auto;
@@ -235,8 +239,9 @@ blockquote {
 			font-family: inherit;
 			float: right;
 			border: none;
-			margin: 1rem;
+			margin: 0.5rem;
 			background-color: $light;
+			font-weight: 300;
 		}
 	}
 

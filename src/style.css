@@ -156,7 +156,11 @@ iframe {
 .opening {
   height: 90vh;
   background-image: url("../img/hero.jpg");
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
+  @media all and (max-width: 705px) {
+    .opening {
+      height: 120vh; } }
   .opening form {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;
@@ -262,8 +266,9 @@ blockquote {
     font-family: inherit;
     float: right;
     border: none;
-    margin: 1rem;
-    background-color: #fff; }
+    margin: 0.5rem;
+    background-color: #fff;
+    font-weight: 300; }
 .contact textarea {
   resize: vertical; }
 .contact li {
@@ -279,6 +284,10 @@ header {
   header h1 {
     margin: 0;
     float: left; }
+    @media all and (max-width: 520px) {
+      header h1 {
+        text-align: center;
+        width: 100%; } }
   header p {
     font-family: "Open Sans Condensed", sans-serif;
     margin: 1rem;
@@ -295,6 +304,11 @@ header {
       header ul li {
         width: 33.33333%;
         margin: 1rem 0; } }
+    @media all and (max-width: 925px) and (max-width: 520px) {
+      header ul li {
+        width: 100%;
+        text-align: center; } }
+
   header ul {
     float: right; }
   header li {
@@ -415,6 +429,13 @@ footer {
 /* image replacement */
 #wifi, #furnished, #parking, #airport, #cleaning {
   overflow: hidden;
-  position: relative; }
+  width: 37px;
+  margin: 0 auto; }
+
+#wifi img {
+  margin: 0 0 0 0; }
+
+#furnished img {
+  margin: 0 -38px 0 0; }
 
 /*# sourceMappingURL=style.css.map */

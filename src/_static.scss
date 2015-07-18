@@ -7,6 +7,10 @@ header {
 	h1 {
 		margin: 0;
 		float: left;
+		@media all and (max-width: 520px) {
+			text-align: center;
+			width: 100%;
+		}
 	}
 
 	p {
@@ -29,7 +33,10 @@ header {
 			li {
 				width: percentage(1/3);
 				margin: 1rem 0;
-
+				@media all and (max-width: 520px) {
+					width: 100%;
+					text-align: center;
+				}
 			}
 		}
 	}

@@ -67,26 +67,28 @@
 
 %sprite {
 	overflow: hidden;
-	position: relative;
+	width: 37px;
+	margin: 0 auto;
 }
 
 #wifi {
 	@extend %sprite;
-
+	img {
+		margin: 0 0 0 0;
+	}
 }
 #furnished {
 	@extend %sprite;
-
+	img {
+		margin: 0 -38px 0 0;
+	}
 }
 #parking {
 	@extend %sprite;
-
 }
 #airport {
 	@extend %sprite;
-
 }
 #cleaning {
 	@extend %sprite;
-
 }
