@@ -427,16 +427,28 @@ footer {
     font-size: 1.6rem; }
 
 /* image replacement */
-#furnished, #parking, #airport, #cleaning {
+#wifi, #furnished, #parking, #airport, #cleaning {
   overflow: hidden;
-  width: 37px;
   margin: 0 auto; }
 
 #wifi img {
-  margin: 0 0 0 0;
-  clip-path: inset(10px 20px 30px 40px); }
+  -webkit-clip-path: inset(0 148px 0 0px);
+  clip-path: inset(0 148px 0 0px); }
 
 #furnished img {
-  margin: 0 -38px 0 0; }
+  -webkit-clip-path: inset(0 111px 0 37px);
+  clip-path: inset(0 111px 0 37px); }
+
+#parking img {
+  -webkit-clip-path: inset(0 74px 0 74px);
+  clip-path: inset(0 74px 0 74px); }
+
+#airport img {
+  -webkit-clip-path: inset(0 37px 0 111px);
+  clip-path: inset(0 37px 0 111px); }
+
+#cleaning img {
+  -webkit-clip-path: inset(0 0px 0 148px);
+  clip-path: inset(0 0px 0 148px); }
 
 /*# sourceMappingURL=style.css.map */
