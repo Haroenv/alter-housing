@@ -65,7 +65,32 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
+	<!-- BEGIN SVG SOURCE -->
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none;">
+		<symbol viewbox="0 0 46 40" id="airport">
+			<path fill="none" stroke="#000000" d="M28 15.6L35.9 7C35.9 7 38.2 3.3 36.8 1.6 35.4 0 31.3 2.2 31.3 2.2L23.2 9.9 3.8 4.1 1.5 6.7 17.6 15.2 8.4 26.1 2.9 24.8 1.5 26.2 8 29.8 11.1 36.3 13.4 34.6 12 29 22.4 19.8 31.6 36.2 34.3 33.9 28 15.6 28 15.6Z"/>
+		</symbol>
 
+		<symbol viewbox="0 0 46 40" id="cleaning">
+			<path fill="none" stroke="#000000" d="M24.2 20.4L18.6 21.5 3.1 37.7 0.2 35.3 16.4 19 16.9 12.6 24.2 20.4 27 18.6 36 18.6M22.5 18.9L26 17.1 36.5 15.2M21.7 17.8L25 15.8 35 11.9M21.3 16.7L24.9 14.3 34.7 8.4M32.2 5.4L20.4 16.6M20 15.7L23.5 11.6 29.4 2.5M19.7 15.4L22.2 11 25.6 1.1M18.8 14.4L20.8 10.7 22.3 0.7M19.4 1L19 10.3 17 12.2M18.9 10.2L20.9 10.6 22.2 11.1 23.3 11.7 24.1 12.9 25 14.5 25.4 15.9 26.1 16.9 26.8 18.4"/>
+		</symbol>
+		<symbol viewbox="0 0 46 40"id="wifi">
+			<path fill="none" stroke="#000000" d="M0.9 7.6C0.9 7.6 7.3 0.8 18.8 0.8 30.4 0.8 36.7 7.6 36.7 7.6M6.7 13.6C6.7 13.6 12.1 8.8 18.8 8.8 26.3 8.8 31 13.6 31 13.6M12.7 18.4C12.7 18.4 15.1 15.8 18.9 15.8 22.7 15.8 25.2 18.4 25.2 18.4"/>
+			<circle fill="none" stroke="#000000" cx="19" cy="26" r="3"/>
+		</symbol>
+		<symbol viewbox="0 0 46 40"  id="parking">
+			<text font-family="Helvetica" font-size="24" font-weight="260" fill="#000000">
+				<tspan x="11" y="27">
+					P
+				</tspan>
+			</text>
+			<circle fill="none" stroke="#000000" cx="17.5" cy="17.5" r="17.5"/>
+		</symbol>
+		<symbol viewbox="0 0 46 40" id="furnished">
+			<path fill="none" stroke="#000000"  d="M0.3 21L4.5 0.4 23.4 0.4 26.9 21 0.3 21ZM7.1 26.6L7.1 20.9 13.4 20.9 13.4 37 6.5 37 20.6 37"/>
+		</symbol>
+	</svg>
+	<!-- END SVG SOURCE -->
 	<section>
 		<h2>Rooms</h2>
 		<aside>
@@ -75,62 +100,102 @@
 			<h3>Our rooms</h3>
 			<article>
 				<img src="img/junior-suite.jpg" alt="Junior suite">
-			</article>
-		</section>
-	</section>
+				<h4>Junior Suite</h4>
+				<p>
+					Our Junior Suites offer breathtaking views of the city skyline.
+				</p>
+				<ul>
+					<li>Size: 260 sq ft</li>
+					<li>Beds: 2 Double(s)</li>
+				</ul>
+				<ul class="icons">
+					<li>
+						<svg title="A/C">
+							<use xlink:href="#A/C">
+							</svg>
+						</li>
+						<li>
+							<svg title="wifi">
+								<use xlink:href="#wifi">
+								</svg>
+							</li>
+							<li>
+								<svg title="telephone">
+									<use xlink:href="#telephone">
+									</svg>
+								</li>
+								<li>
+									<svg title="tv">
+										<use xlink:href="#tv">
+										</svg>
+									</li>
+									<li>
+										<svg title="safe">
+											<use xlink:href="#safe">
+											</svg>
+										</li>
+										<li>
+											<svg title="kitchen">
+												<use xlink:href="#kitchen">
+												</svg>
+											</li>
+										</ul>
+									</article>
+								</section>
+							</section>
 
 
-	<footer>
-		<ul>
-			<li>
-				<div>
-					<h3>Contact us</h3>
-					<ul>
-						<li><a href="mailto:info@alterhousing.com">info@alterhousing.com</a></li>
-						<li><a href="tel:+32497466234">+32 497 466 234</a></li>
-					</ul>
-					<ul>
-						<a href="#"><li class="social facebook">Facebook</li></a>
-						<a href="#"><li class="social twitter">Twitter</li></a>
-						<a href="#"><li class="social google-plus">Google+</li></a>
-					</ul>
-				</div>
-			</li>
-			<li>
-				<div>
-					<h3>Address</h3>
-					<ul>
-						<li>Markt 1, </li>
-						<li>8000 Brugge, </li>
-						<li>Belgium</li>
-					</ul>
-				</div>
-			</li>
-			<li>
-				<div>
-					<h3>We Accept</h3>
-					<ul>
-						<li class="visa">Visa</li> <!-- TODO -->
-						<li class="mastercard">MasterCard</li> <!-- TODO -->
-						<li class="amex">American Express</li> <!-- TODO -->
-						<li class="paypal">PayPal</li> <!-- TODO -->
-					</ul>
-				</div>
-			</li>
-		</ul>
-	</footer>
-	<nav>
-		<h3 class="structural">Secondary Navigation</h3>
-		<ul>
-			<li><a href="index.html" class="active">Home</a></li>
-			<li><a href="rooms.html">Rooms</a></li>
-			<li><a href="attractions.html">Attractions</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-	<p class="copy">
-		&copy; bla bla, bla bla bla bla
-	</p>
-</body>
+							<footer>
+								<ul>
+									<li>
+										<div>
+											<h3>Contact us</h3>
+											<ul>
+												<li><a href="mailto:info@alterhousing.com">info@alterhousing.com</a></li>
+												<li><a href="tel:+32497466234">+32 497 466 234</a></li>
+											</ul>
+											<ul>
+												<a href="#"><li class="social facebook">Facebook</li></a>
+												<a href="#"><li class="social twitter">Twitter</li></a>
+												<a href="#"><li class="social google-plus">Google+</li></a>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>Address</h3>
+											<ul>
+												<li>Markt 1, </li>
+												<li>8000 Brugge, </li>
+												<li>Belgium</li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<div>
+											<h3>We Accept</h3>
+											<ul>
+												<li class="visa">Visa</li> <!-- TODO -->
+												<li class="mastercard">MasterCard</li> <!-- TODO -->
+												<li class="amex">American Express</li> <!-- TODO -->
+												<li class="paypal">PayPal</li> <!-- TODO -->
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</footer>
+							<nav>
+								<h3 class="structural">Secondary Navigation</h3>
+								<ul>
+									<li><a href="index.html" class="active">Home</a></li>
+									<li><a href="rooms.html">Rooms</a></li>
+									<li><a href="attractions.html">Attractions</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+							<p class="copy">
+								&copy; bla bla, bla bla bla bla
+							</p>
+						</body>
 
-</html>
+						</html>
