@@ -72,9 +72,10 @@
 }
 
 #wifi {
-	@extend %sprite;
+	//@extend %sprite;
 	img {
 		margin: 0 0 0 0;
+		clip-path: inset(10px 20px 30px 40px);
 	}
 }
 #furnished {

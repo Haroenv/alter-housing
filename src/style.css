@@ -427,13 +427,14 @@ footer {
     font-size: 1.6rem; }
 
 /* image replacement */
-#wifi, #furnished, #parking, #airport, #cleaning {
+#furnished, #parking, #airport, #cleaning {
   overflow: hidden;
   width: 37px;
   margin: 0 auto; }
 
 #wifi img {
-  margin: 0 0 0 0; }
+  margin: 0 0 0 0;
+  clip-path: inset(10px 20px 30px 40px); }
 
 #furnished img {
   margin: 0 -38px 0 0; }
