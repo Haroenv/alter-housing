@@ -226,7 +226,8 @@ blockquote {
 		width: 100%;
 		float: left;
 		font-size: 1.5rem;
-		border: 1px solid $medium;
+		border: 1px solid $second-medium;
+		padding: 0.5rem;
 
 		&[type=submit] {
 			display: inline-block;
@@ -237,6 +238,10 @@ blockquote {
 			margin: 1rem;
 			background-color: $light;
 		}
+	}
+
+	textarea {
+		resize: vertical;
 	}
 
 	li {

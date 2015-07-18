@@ -254,7 +254,8 @@ blockquote {
   width: 100%;
   float: left;
   font-size: 1.5rem;
-  border: 1px solid #70716c; }
+  border: 1px solid #a7a8aa;
+  padding: 0.5rem; }
   .contact input[type=submit], .contact textarea[type=submit] {
     display: inline-block;
     width: initial;
@@ -263,6 +264,8 @@ blockquote {
     border: none;
     margin: 1rem;
     background-color: #fff; }
+.contact textarea {
+  resize: vertical; }
 .contact li {
   list-style-type: none; }
 .contact ul {
