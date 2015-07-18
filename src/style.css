@@ -253,12 +253,21 @@ blockquote {
 .contact input, .contact textarea {
   width: 100%;
   float: left;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  border: 1px solid #70716c; }
   .contact input[type=submit], .contact textarea[type=submit] {
+    display: inline-block;
+    width: initial;
     font-family: inherit;
     float: right;
     border: none;
+    margin: 1rem;
     background-color: #fff; }
+.contact li {
+  list-style-type: none; }
+.contact ul {
+  margin: 2rem;
+  padding: 0; }
 
 /* header and footer */
 header {

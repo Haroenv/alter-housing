@@ -226,12 +226,25 @@ blockquote {
 		width: 100%;
 		float: left;
 		font-size: 1.5rem;
+		border: 1px solid $medium;
 
 		&[type=submit] {
+			display: inline-block;
+			width: initial;
 			font-family: inherit;
 			float: right;
 			border: none;
+			margin: 1rem;
 			background-color: $light;
 		}
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	ul {
+		margin: 2rem;
+		padding: 0;
 	}
 }
