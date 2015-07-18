@@ -95,6 +95,25 @@
 		<h2>Rooms</h2>
 		<aside>
 			<h3>Select dates</h3>
+			<form action="rooms.html">
+			<div>
+				<label for="from">Check in</label>
+				<input type="date" name="from">
+			</div>
+			<div>
+				<label for="to">Check out</label>
+				<input type="date" name="to">
+			</div>
+			<div>
+				<label for="kids">Kids</label>
+				<input type="number" name="kids" value="0" min="0">
+			</div>
+			<div>
+				<label for="adults">Adults</label>
+				<input type="number" name="adults" value="0" min="0">
+			</div>
+			<input type="submit" value="Search">
+		</form>
 		</aside>
 		<section>
 			<h3>Our rooms</h3>
