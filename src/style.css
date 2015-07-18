@@ -429,26 +429,13 @@ footer {
 /* image replacement */
 #wifi, #furnished, #parking, #airport, #cleaning {
   overflow: hidden;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 46px;
+  height: 40px; }
+  #wifi .airport, #furnished .airport, #parking .airport, #airport .airport, #cleaning .airport, #wifi .furnished, #furnished .furnished, #parking .furnished, #airport .furnished, #cleaning .furnished, #wifi .wifi, #furnished .wifi, #parking .wifi, #airport .wifi, #cleaning .wifi, #wifi .parking, #furnished .parking, #parking .parking, #airport .parking, #cleaning .parking, #wifi .furnished, #furnished .furnished, #parking .furnished, #airport .furnished, #cleaning .furnished {
+    display: none; }
 
-#wifi img {
-  -webkit-clip-path: inset(0 148px 0 0px);
-  clip-path: inset(0 148px 0 0px); }
-
-#furnished img {
-  -webkit-clip-path: inset(0 111px 0 37px);
-  clip-path: inset(0 111px 0 37px); }
-
-#parking img {
-  -webkit-clip-path: inset(0 74px 0 74px);
-  clip-path: inset(0 74px 0 74px); }
-
-#airport img {
-  -webkit-clip-path: inset(0 37px 0 111px);
-  clip-path: inset(0 37px 0 111px); }
-
-#cleaning img {
-  -webkit-clip-path: inset(0 0px 0 148px);
-  clip-path: inset(0 0px 0 148px); }
+#wifi .wifi {
+  fill: #F00; }
 
 /*# sourceMappingURL=style.css.map */
