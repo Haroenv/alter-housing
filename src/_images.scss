@@ -1,39 +1,5 @@
 /* image replacement */
 
-// %logos {
-// 	width: 50%;
-// 	height: 8rem;
-// 	float: left;
-// }
-
-// #wtf {
-// 	@extend %ir;
-// 	@extend %logos;
-// 	background-image: url("../img/logo-world-travel-magazine.png")
-// } //todo
-
-// #tam {
-// 	@extend %ir;
-// 	@extend %logos;
-// 	background-image: url("../img/logo-travel-agent-magazine.png")
-// } //todo
-
-// #atg {
-// 	@extend %ir;
-// 	@extend %logos;
-// 	background-image: url("../img/logo-around-the-globe.png")
-// } //todo
-
-// #gv  {
-// 	@extend %ir;
-// 	@extend %logos;
-// 	background-image: url("../img/logo-govacation.png")
-// } //todo
-
-%icons {
-	width: 4rem;
-	height: 4rem;
-}
 
 // #wifi {
 // 	@extend %ir;
@@ -65,33 +31,43 @@
 // 	background-image: url("../img/icon-cleaning.png"); //todo
 // }
 
-%sprite {
+// %sprite {
+// 	overflow: hidden;
+// 	margin: 0 auto;
+// 	width: 46px;
+// 	height: 40px;
+// 	.airport, .furnished, .wifi, .parking, .furnished {
+// 		display: none;
+// 	}
+// }
+
+// #wifi {
+// 	@extend %sprite;
+// 	.wifi {
+// 		fill: #F00;
+// 	}
+
+
+// }
+// #furnished {
+// 	@extend %sprite;
+// }
+// #parking {
+// 	@extend %sprite;
+// }
+// #airport {
+// 	@extend %sprite;
+// }
+// #cleaning {
+// 	@extend %sprite;
+// }
+
+
+.icons svg {
+	width: 40px;
+	height: 46px;
 	overflow: hidden;
 	margin: 0 auto;
-	width: 46px;
-	height: 40px;
-	.airport, .furnished, .wifi, .parking, .furnished {
-		display: none;
-	}
-}
-
-#wifi {
-	@extend %sprite;
-	.wifi {
-		fill: #F00;
-	}
-
-
-}
-#furnished {
-	@extend %sprite;
-}
-#parking {
-	@extend %sprite;
-}
-#airport {
-	@extend %sprite;
-}
-#cleaning {
-	@extend %sprite;
+	text-align: center;
+	display: block;
 }

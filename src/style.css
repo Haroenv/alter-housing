@@ -427,15 +427,12 @@ footer {
     font-size: 1.6rem; }
 
 /* image replacement */
-#wifi, #furnished, #parking, #airport, #cleaning {
+.icons svg {
+  width: 40px;
+  height: 46px;
   overflow: hidden;
   margin: 0 auto;
-  width: 46px;
-  height: 40px; }
-  #wifi .airport, #furnished .airport, #parking .airport, #airport .airport, #cleaning .airport, #wifi .furnished, #furnished .furnished, #parking .furnished, #airport .furnished, #cleaning .furnished, #wifi .wifi, #furnished .wifi, #parking .wifi, #airport .wifi, #cleaning .wifi, #wifi .parking, #furnished .parking, #parking .parking, #airport .parking, #cleaning .parking, #wifi .furnished, #furnished .furnished, #parking .furnished, #airport .furnished, #cleaning .furnished {
-    display: none; }
-
-#wifi .wifi {
-  fill: #F00; }
+  text-align: center;
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
