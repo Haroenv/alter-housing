@@ -281,7 +281,14 @@ blockquote {
   padding: 0 10vw; }
   .rooms aside {
     width: 30%;
-    float: left; }
+    float: left;
+    border-top: 1px #F2CFB5 solid; }
+    .rooms aside form div {
+      margin: 1rem;
+      width: 100%; }
+      .rooms aside form div input {
+        width: 100%;
+        clear: left; }
   .rooms section {
     width: 70%;
     float: left; }
