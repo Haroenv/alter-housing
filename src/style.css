@@ -285,6 +285,10 @@ blockquote {
   .rooms section {
     width: 70%;
     float: left; }
+    .rooms section article {
+      padding: 2rem;
+      border: 1px #F2CFB5 solid;
+      border-right: none; }
 
 /* header and footer */
 header {

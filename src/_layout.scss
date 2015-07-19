@@ -270,5 +270,11 @@ blockquote {
 	section {
 		width: 70%;
 		float: left;
+
+		article {
+			padding: 2rem;
+			border: 1px $light-colour solid;
+			border-right: none;
+		}
 	}
 }
