@@ -261,13 +261,14 @@ blockquote {
 
 .rooms {
 	padding: 0 10vw;
+
 	aside {
 		width: 30%;
-		padding: 0;
+		float: left;
 	}
 
 	section {
 		width: 70%;
-		padding: 0;
+		float: left;
 	}
 }
