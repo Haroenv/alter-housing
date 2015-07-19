@@ -51,7 +51,7 @@ body {
 .structural {
   display: none; }
 
-.half-wrapper:after, .half-wrapper .half:after, .opening form:after, header:after, footer > ul:after {
+.half-wrapper:after, .half:after, .opening form:after, header:after, footer > ul:after {
   content: "";
   display: table;
   clear: both; }
@@ -105,30 +105,31 @@ blockquote {
       padding: 0 10vw; } }
   .half-wrapper:nth-of-type(2n+1) {
     background-color: #f4f4f4; }
-  .half-wrapper .half {
-    float: left;
-    width: 50%;
-    min-height: 200px;
-    overflow: hidden; }
-    .half-wrapper .half img, .half-wrapper .half iframe {
-      max-height: 350px; }
-    @media all and (max-width: 720px) {
-      .half-wrapper .half {
-        width: 100vw; } }
-    .half-wrapper .half h2 {
-      font-family: "Open Sans Condensed", sans-serif;
-      padding-bottom: 1.5rem; }
-    .half-wrapper .half p {
-      padding-top: 1rem; }
-    .half-wrapper .half:not(.image) {
-      padding: 2rem; }
-    .half-wrapper .half.first {
-      font-family: "Open Sans Condensed", sans-serif;
-      font-size: 3rem; }
-      .half-wrapper .half.first h2 {
-        background-color: #fff;
-        width: 100vw;
-        clear: both; }
+
+.half {
+  float: left;
+  width: 50%;
+  min-height: 200px;
+  overflow: hidden; }
+  .half img, .half iframe {
+    max-height: 350px; }
+  @media all and (max-width: 720px) {
+    .half {
+      width: 100vw; } }
+  .half h2 {
+    font-family: "Open Sans Condensed", sans-serif;
+    padding-bottom: 1.5rem; }
+  .half p {
+    padding-top: 1rem; }
+  .half:not(.image) {
+    padding: 2rem; }
+  .half.first {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 3rem; }
+    .half.first h2 {
+      background-color: #fff;
+      width: 100vw;
+      clear: both; }
 
 h2.first {
   font-family: "Open Sans Condensed", sans-serif;
@@ -294,6 +295,8 @@ blockquote {
           clear: left;
           border: 1px #F2CFB5 solid;
           border-radius: 2px; }
+      .rooms aside form label {
+        font-size: 1.2rem; }
   .rooms section {
     width: 70%;
     float: left; }
