@@ -265,16 +265,19 @@ blockquote {
 	aside {
 		width: 30%;
 		float: left;
-		border-top: 1px $light-colour solid;
 
 		form {
+			border-top: 1px $light-colour solid;
+			margin: 1rem;
 			div {
-				//float: left;
+				overflow: hidden;
 				margin: 1rem;
 				width: 100%;
 				input {
 					width: 100%;
 					clear: left;
+					border: 1px $light-colour solid;
+					border-radius: 2px;
 				}
 			}
 		}
