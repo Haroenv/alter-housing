@@ -51,7 +51,7 @@ body {
 .structural {
   display: none; }
 
-.half-wrapper:after, .half:after, .opening form:after, header:after, footer > ul:after {
+.half-wrapper:after, .half:after, .opening form:after, .rooms section article:after, header:after, footer > ul:after {
   content: "";
   display: table;
   clear: both; }
@@ -304,6 +304,14 @@ blockquote {
       padding: 2rem;
       border: 1px #F2CFB5 solid;
       border-right: none; }
+      .rooms section article img {
+        width: 30%;
+        float: left; }
+      .rooms section article h4, .rooms section article p, .rooms section article ul {
+        width: 70%;
+        float: left; }
+      .rooms section article .icons li {
+        background-color: #F00; }
 
 /* header and footer */
 header {

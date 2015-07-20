@@ -294,6 +294,22 @@ blockquote {
 			padding: 2rem;
 			border: 1px $light-colour solid;
 			border-right: none;
+
+			@extend %clearfix;
+
+			img {
+				width: 30%;
+				float: left;
+			}
+
+			h4, p, ul {
+				width: 70%;
+				float: left;
+			}
+
+			.icons li {
+				background-color: #F00;
+			}
 		}
 	}
 }
