@@ -306,7 +306,7 @@ blockquote {
 				float: left;
 			}
 
-			h4, p, ul {
+			h4, p, ul, div {
 				width: 35%;
 				float: left;
 			}
@@ -323,6 +323,15 @@ blockquote {
 				}
 			}
 		}
+	}
+
+	.button {
+		background-color: $colour;
+		border: none;
+		border-radius: 0;
+		color: $light;
+		text-align: center;
+		// width: 100%;
 	}
 }
 

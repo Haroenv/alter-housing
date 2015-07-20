@@ -320,7 +320,7 @@ blockquote {
         padding: 1rem;
         width: 35%;
         float: left; }
-      .rooms section article h4, .rooms section article p, .rooms section article ul {
+      .rooms section article h4, .rooms section article p, .rooms section article ul, .rooms section article div {
         width: 35%;
         float: left; }
       .rooms section article .icons {
@@ -331,6 +331,12 @@ blockquote {
           width: 3rem; }
         .rooms section article .icons svg {
           width: 100%; }
+  .rooms .button {
+    background-color: #D97B34;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    text-align: center; }
 
 /* header and footer */
 header {

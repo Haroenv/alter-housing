@@ -21,44 +21,100 @@
         <path fill="none" stroke="#000000" d="M0.3 21L4.5 0.4 23.4 0.4 26.9 21 0.3 21ZM7.1 26.6L7.1 20.9 13.4 20.9 13.4 37 6.5 37 20.6 37" />
     </symbol>
     <symbol viewBox="0 0 200 200" id="ac" stroke="#000000">
-        <g id="svgstore1224a1526dee4202c217b7f05df2b111ac">
-            <g>
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="169" y1="100" x2="194" y2="100" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="31" y1="100" x2="6" y2="100" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="169" y1="100" x2="182" y2="81" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="169" y1="100" x2="182" y2="119" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="31" y1="100" x2="18" y2="119" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="31" y1="100" x2="18" y2="81" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="100" y1="169" x2="100" y2="194" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="100" y1="6" x2="100" y2="31" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="81" y1="18" x2="100" y2="31" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="119" y1="18" x2="100" y2="31" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="100" y1="169" x2="81" y2="182" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="119" y1="182" x2="100" y2="169" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="166" y1="166" x2="149" y2="149" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="51" y1="51" x2="34" y2="34" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="51" y1="51" x2="55" y2="29" />
-                <polyline fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+        <g>
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="169" y1="100" x2="194" y2="100" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="31" y1="100" x2="6" y2="100" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="169" y1="100" x2="182" y2="81" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="169" y1="100" x2="182" y2="119" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="31" y1="100" x2="18" y2="119" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="31" y1="100" x2="18" y2="81" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="100" y1="169" x2="100" y2="194" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="100" y1="6" x2="100" y2="31" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="81" y1="18" x2="100" y2="31" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="119" y1="18" x2="100" y2="31" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="100" y1="169" x2="81" y2="182" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="119" y1="182" x2="100" y2="169" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="166" y1="166" x2="149" y2="149" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="51" y1="51" x2="34" y2="34" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="51" y1="51" x2="55" y2="29" />
+            <polyline fill="none" stroke-width="4"  stroke-miterlimit="4" points="
 29,55 51,51 51,51     " />
-                <polyline fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+            <polyline fill="none" stroke-width="4"  stroke-miterlimit="4" points="
 171,145 149,149 149,149     " />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="145" y1="171" x2="149" y2="149" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="51" y1="149" x2="34" y2="166" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="149" y1="51" x2="166" y2="34" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="51" y1="149" x2="55" y2="171" />
-                <polyline fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="145" y1="171" x2="149" y2="149" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="51" y1="149" x2="34" y2="166" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="149" y1="51" x2="166" y2="34" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="51" y1="149" x2="55" y2="171" />
+            <polyline fill="none" stroke-width="4"  stroke-miterlimit="4" points="
 51,149 51,149 29,145    " />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="145" y1="29" x2="149" y2="51" />
-                <polyline fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="145" y1="29" x2="149" y2="51" />
+            <polyline fill="none" stroke-width="4"  stroke-miterlimit="4" points="
 149,51 149,51 171,55    " />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="70" y1="100" x2="31" y2="100" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="169" y1="100" x2="130" y2="100" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="100" y1="130" x2="100" y2="169" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="100" y1="70" x2="100" y2="31" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="51" y1="51" x2="79" y2="79" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="121" y1="121" x2="149" y2="149" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="79" y1="121" x2="51" y2="149" />
-                <line fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="149" y1="51" x2="121" y2="79" /> </g>
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="70" y1="100" x2="31" y2="100" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="169" y1="100" x2="130" y2="100" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="100" y1="130" x2="100" y2="169" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="100" y1="70" x2="100" y2="31" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="51" y1="51" x2="79" y2="79" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="121" y1="121" x2="149" y2="149" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="79" y1="121" x2="51" y2="149" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="149" y1="51" x2="121" y2="79" />
+        </g>
+    </symbol>
+    <symbol id="telephone" stroke="#000000" viewBox="0 0 200 200">
+        <g>
+            <path fill="none" stroke-width="4" stroke-miterlimit="4" d="M62,74l22-22
+c2-2,2-5,0-8L49,10c-4-4-11-4-15,0L19,24C-1,44,2,73,21,93l84,84c20,20,49,22,69,2l18-18c2-2,2-5,0-8l-42-41c-2-2-5-2-8,0l-22,22
+L62,74z" />
+        </g>
+    </symbol>
+    <symbol id="tv" stroke="#000000" viewBox="0 0 200 200">
+        <path fill="none" stroke-width="4" stroke-miterlimit="4" d="M182,194H18
+c-6,0-10-4-10-10V61c0-5,4-10,10-10h165c5,0,10,5,10,10v123C192,190,188,194,182,194z" />
+        <path fill="none" stroke-width="4" stroke-miterlimit="4" d="M149,163H51
+c-6,0-10-5-10-10V92c0-5,4-10,10-10h98c6,0,10,5,10,10v61C159,159,154,163,149,163z" />
+        <g>
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="84" y1="51" x2="48" y2="6" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="152" y1="6" x2="116" y2="51" />
+        </g>
+    </symbol>
+    <symbol id="safe" stroke="#000000" viewBox="0 0 200 200">
+        <path id="svgstoreb32a6cb2f821f887e5ce316ddea0481cXMLID_2_" fill="none" stroke-width="4" stroke-miterlimit="4" d="M42.08,52.377
+c-5.935,0-10.74,4.886-10.74,11.019v91.17c0,6.133,4.805,11.123,10.74,11.123h115.689c5.935,0,10.74-4.99,10.74-11.123V63.501
+c0-6.133-4.805-11.123-10.74-11.123H42.08L42.08,52.377z M15.667,23.893c-5.525,0-10.046,4.989-10.046,11.086v148.006
+c0,6.097,4.521,11.086,10.046,11.086h168.515c5.525,0,10.046-4.989,10.046-11.086V34.979c0-6.097-4.521-11.086-10.046-11.086H15.667
+z" />
+        <path id="svgstoreb32a6cb2f821f887e5ce316ddea0481cXMLID_5_" fill="none" stroke-width="4" stroke-miterlimit="4" d="
+M151.174,113.363h-6.312c-0.942,6.029-2.638,8.385-5.087,11.588l4.522,5.182l-7.066,7.066l-4.71-4.71
+c-3.297,2.167-8.102,3.674-11.117,4.239v6.5h-8.95v-6.783c-6.029-0.754-8.29-2.449-11.588-4.805l-5.182,4.616l-7.066-7.066
+l4.616-4.616c-2.261-3.392-3.768-8.196-4.428-11.211H82.59v-8.856h6.312c0.754-6.029,2.449-8.573,4.899-11.87l-4.239-4.805
+l7.066-7.066l4.239,4.334c3.392-2.355,8.573-3.863,11.588-4.522v-5.841h8.95v6.124c6.029,0.848,8.667,2.544,11.87,5.087l4.805-4.239
+l7.066,7.066l-4.428,4.334c2.261,3.392,3.768,8.479,4.239,11.494h6.218V113.363L151.174,113.363z" />
+        <circle id="svgstoreb32a6cb2f821f887e5ce316ddea0481cXMLID_1_" fill="none" stroke-width="4" stroke-miterlimit="0" cx="116.453" cy="108.922" r="13.547" />
+    </symbol>
+    <symbol id="kitchen" stroke="#000000" viewBox="0 0 200 200">
+        <g>
+            <path fill="none" stroke-width="4" stroke-miterlimit="4" d="M179,132" />
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M175,194V40V7c-25,7-36,55-36,102h36" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M76,7v36c0,25,1,39-23,39H37c-24,0-22-13-22-38V7" />
+            </g>
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M30,4" />
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M30,56" />
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M51,4" />
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M51,56" />
+            <line fill="none" stroke-width="4"  stroke-miterlimit="4" x1="45" y1="194" x2="45" y2="7" />
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M85,46" />
+            <path fill="none" stroke-width="4"  stroke-miterlimit="4" d="
+M6,46" />
         </g>
     </symbol>
 </svg>
