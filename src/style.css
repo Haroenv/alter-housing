@@ -327,11 +327,10 @@ blockquote {
         border-top: 1px #F2CFB5 solid;
         padding: 0; }
         .rooms section article .icons li {
-          margin: 0.25rem; }
+          margin: 0.25rem;
+          width: 3rem; }
         .rooms section article .icons svg {
-          width: initial;
-          height: initial;
-          background-color: rgba(255, 0, 0, 0.5); }
+          width: 100%; }
 
 /* header and footer */
 header {
