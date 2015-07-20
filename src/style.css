@@ -162,6 +162,18 @@ iframe {
   @media all and (max-width: 705px) {
     .opening {
       height: 120vh; } }
+  @media all and (max-height: 510px) {
+    .opening {
+      height: 140vh; } }
+  @media all and (max-height: 400px) {
+    .opening {
+      height: 160vh; } }
+  @media all and (max-height: 340px) {
+    .opening {
+      height: 200vh; } }
+  @media all and (max-height: 270px) {
+    .opening {
+      height: 240vh; } }
   .opening form {
     margin: 0 auto;
     font-family: "Open Sans", sans-serif;

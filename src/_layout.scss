@@ -94,9 +94,11 @@ iframe {
 
 .opening {
 	height: 90vh;
-	@media all and (max-width: 705px) {
-		height: 120vh;
-	}
+	@media all and (max-width: 705px) { height: 120vh; }
+	@media all and (max-height: 510px) { height: 140vh; }
+	@media all and (max-height: 400px) { height: 160vh; }
+	@media all and (max-height: 340px) { height: 200vh; }
+	@media all and (max-height: 270px) { height: 240vh; }
 	background-image: url("../img/hero.jpg");
 	background-position: center;
 	background-size: cover;
