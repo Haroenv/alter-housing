@@ -317,8 +317,9 @@ blockquote {
         .rooms section article .icons li {
           margin: 0.25rem; }
         .rooms section article .icons svg {
-          width: 25px;
-          height: 25px; }
+          width: initial;
+          height: initial;
+          background-color: rgba(255, 0, 0, 0.5); }
 
 /* header and footer */
 header {

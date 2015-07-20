@@ -311,14 +311,13 @@ blockquote {
 			.icons{
 				border-top: 1px $light-colour solid;
 				padding: 0;
-				// background-color: #0F0; /* test*/
 				li {
 					margin: 0.25rem;
-					// background-color: #F00; /* test*/
 				}
 				svg {
-					width: 25px;
-					height: 25px;
+					width: initial;
+					height: initial;
+					background-color: rgba(255,0,0,0.5);
 				}
 			}
 		}
