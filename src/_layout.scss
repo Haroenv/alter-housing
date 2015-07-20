@@ -298,17 +298,28 @@ blockquote {
 			@extend %clearfix;
 
 			img {
-				width: 30%;
+				padding: 1rem;
+				width: 35%;
 				float: left;
 			}
 
 			h4, p, ul {
-				width: 70%;
+				width: 35%;
 				float: left;
 			}
 
-			.icons li {
-				background-color: #F00;
+			.icons{
+				border-top: 1px $light-colour solid;
+				padding: 0;
+				// background-color: #0F0; /* test*/
+				li {
+					margin: 0.25rem;
+					// background-color: #F00; /* test*/
+				}
+				svg {
+					width: 25px;
+					height: 25px;
+				}
 			}
 		}
 	}

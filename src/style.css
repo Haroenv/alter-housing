@@ -305,13 +305,20 @@ blockquote {
       border: 1px #F2CFB5 solid;
       border-right: none; }
       .rooms section article img {
-        width: 30%;
+        padding: 1rem;
+        width: 35%;
         float: left; }
       .rooms section article h4, .rooms section article p, .rooms section article ul {
-        width: 70%;
+        width: 35%;
         float: left; }
-      .rooms section article .icons li {
-        background-color: #F00; }
+      .rooms section article .icons {
+        border-top: 1px #F2CFB5 solid;
+        padding: 0; }
+        .rooms section article .icons li {
+          margin: 0.25rem; }
+        .rooms section article .icons svg {
+          width: 25px;
+          height: 25px; }
 
 /* header and footer */
 header {
