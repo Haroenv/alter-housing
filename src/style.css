@@ -292,9 +292,15 @@ blockquote {
 
 .rooms {
   padding: 0 10vw; }
+  @media all and (max-width: 510px) {
+    .rooms {
+      padding: 0 5vw; } }
   .rooms aside {
     width: 30%;
     float: left; }
+    @media all and (max-width: 740px) {
+      .rooms aside {
+        width: 100%; } }
     .rooms aside form {
       border-top: 1px #F2CFB5 solid;
       margin: 1rem; }
@@ -312,6 +318,9 @@ blockquote {
   .rooms section {
     width: 70%;
     float: left; }
+    @media all and (max-width: 740px) {
+      .rooms section {
+        width: 100%; } }
     .rooms section article {
       padding: 2rem;
       border: 1px #F2CFB5 solid;

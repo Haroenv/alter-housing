@@ -264,9 +264,15 @@ blockquote {
 
 .rooms {
 	padding: 0 10vw;
+	@media all and (max-width: 510px) {
+		padding: 0 5vw;
+	}
 
 	aside {
 		width: 30%;
+		@media all and (max-width: 740px) {
+			width: 100%;
+		}
 		float: left;
 
 		form {
@@ -291,6 +297,9 @@ blockquote {
 
 	section {
 		width: 70%;
+		@media all and (max-width: 740px) {
+			width: 100%;
+		}
 		float: left;
 
 		article {
