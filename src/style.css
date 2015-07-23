@@ -309,6 +309,7 @@ blockquote {
         margin: 1rem;
         width: 100%; }
         .rooms aside form div input {
+          font-size: 1.5rem;
           width: 100%;
           clear: left;
           border: 1px #F2CFB5 solid;
