@@ -312,11 +312,11 @@ blockquote {
 
 			img {
 				padding: 1rem;
-				width: 35%;
+				width: 30%;
 				float: left;
 			}
 
-			h4, p, ul, div {
+			div {
 				width: 35%;
 				float: left;
 			}
@@ -326,7 +326,7 @@ blockquote {
 				padding: 0;
 				li {
 					margin: 0.25rem;
-					width: 3rem;
+					width: percentage(1/8);
 				}
 				svg {
 					width: 100%;

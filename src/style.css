@@ -117,14 +117,14 @@ blockquote {
     .half {
       width: 100vw; } }
   .half h2 {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
     padding-bottom: 1.5rem; }
   .half p {
     padding-top: 1rem; }
   .half:not(.image) {
     padding: 2rem; }
   .half.first {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
     font-size: 3rem; }
     .half.first h2 {
       background-color: #fff;
@@ -132,7 +132,7 @@ blockquote {
       clear: both; }
 
 h2.first {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
   padding-bottom: 1.5rem;
   font-size: 3rem;
   background-color: #fff;
@@ -142,7 +142,7 @@ h2.first {
 .full {
   width: 100%;
   padding: 2rem 10vw;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
   background: #f4f4f4;
   font-size: 2rem; }
   .full h2 {
@@ -328,9 +328,9 @@ blockquote {
       border-right: none; }
       .rooms section article img {
         padding: 1rem;
-        width: 35%;
+        width: 30%;
         float: left; }
-      .rooms section article h4, .rooms section article p, .rooms section article ul, .rooms section article div {
+      .rooms section article div {
         width: 35%;
         float: left; }
       .rooms section article .icons {
@@ -338,7 +338,7 @@ blockquote {
         padding: 0; }
         .rooms section article .icons li {
           margin: 0.25rem;
-          width: 3rem; }
+          width: 12.5%; }
         .rooms section article .icons svg {
           width: 100%; }
   .rooms .button {
@@ -360,7 +360,7 @@ header {
         text-align: center;
         width: 100%; } }
   header p {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
     margin: 1rem;
     float: left;
     font-size: 2rem;
@@ -415,7 +415,7 @@ footer {
   clear: both; }
   footer h3 {
     margin: 1rem;
-    font-family: "Open Sans Condensed", sans-serif; }
+    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif; }
   footer > ul {
     margin: 0;
     padding: 1rem; }
