@@ -117,14 +117,14 @@ blockquote {
     .half {
       width: 100vw; } }
   .half h2 {
-    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     padding-bottom: 1.5rem; }
   .half p {
     padding-top: 1rem; }
   .half:not(.image) {
     padding: 2rem; }
   .half.first {
-    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-size: 3rem; }
     .half.first h2 {
       background-color: #fff;
@@ -132,7 +132,7 @@ blockquote {
       clear: both; }
 
 h2.first {
-  font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   padding-bottom: 1.5rem;
   font-size: 3rem;
   background-color: #fff;
@@ -142,7 +142,7 @@ h2.first {
 .full {
   width: 100%;
   padding: 2rem 10vw;
-  font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   background: #f4f4f4;
   font-size: 2rem; }
   .full h2 {
@@ -330,9 +330,25 @@ blockquote {
         padding: 1rem;
         width: 30%;
         float: left; }
+        @media all and (max-width: 700px) {
+          .rooms section article img {
+            width: 100%; } }
       .rooms section article div {
         width: 35%;
         float: left; }
+        @media all and (max-width: 700px) {
+          .rooms section article div {
+            width: 100%; } }
+        .rooms section article div p.price {
+          text-align: center; }
+          .rooms section article div p.price:nth-of-type(1), .rooms section article div p.price:nth-of-type(2) {
+            color: #70716c; }
+          .rooms section article div p.price:nth-of-type(1) {
+            font-weight: 600; }
+          .rooms section article div p.price:nth-of-type(2) {
+            padding: 2rem;
+            font-size: 8rem;
+            font-weight: 100; }
       .rooms section article .icons {
         border-top: 1px #F2CFB5 solid;
         padding: 0; }
@@ -360,7 +376,7 @@ header {
         text-align: center;
         width: 100%; } }
   header p {
-    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     margin: 1rem;
     float: left;
     font-size: 2rem;
@@ -415,7 +431,7 @@ footer {
   clear: both; }
   footer h3 {
     margin: 1rem;
-    font-family: "Comic Sans MS", "Open Sans Condensed", sans-serif; }
+    font-family: "Open Sans Condensed", sans-serif; }
   footer > ul {
     margin: 0;
     padding: 1rem; }
