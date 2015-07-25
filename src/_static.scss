@@ -60,6 +60,9 @@ nav {
 	background-color: $light-medium;
 	text-align: center;
 	padding: 1rem;
+	ul {
+		padding: 0;
+	}
 	li {
 		list-style-type: none;
 		display: block;

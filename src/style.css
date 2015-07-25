@@ -410,6 +410,8 @@ nav {
   background-color: #f4f4f4;
   text-align: center;
   padding: 1rem; }
+  nav ul {
+    padding: 0; }
   nav li {
     list-style-type: none;
     display: block;
