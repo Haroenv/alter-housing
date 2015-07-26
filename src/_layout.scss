@@ -9,7 +9,6 @@
 		background-color: $light-medium;
 	}
 
-
 	@extend %clearfix;
 }
 
@@ -348,9 +347,11 @@ blockquote {
 				li {
 					margin: 0.25rem;
 					width: percentage(1/8);
+					height: 4rem;
 				}
 				svg {
 					width: 100%;
+					height: 100%;
 				}
 			}
 		}
