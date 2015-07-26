@@ -7,16 +7,12 @@ html {
 	box-sizing: border-box;
 }
 
-body {
-	font-size: 1.6rem;
-}
-
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
-%wrapper {
-	max-width: 960px;
+body {
+	font-size: 1.6rem;
 }
 
 .structural {
