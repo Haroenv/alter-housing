@@ -69,6 +69,10 @@ ul {
 	}
 }
 
+input {
+	font-family: $helvetica;
+}
+
 blockquote {
 	margin: 1rem;
 	&::before {

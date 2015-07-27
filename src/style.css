@@ -42,11 +42,11 @@ html {
   font-weight: 300;
   box-sizing: border-box; }
 
-body {
-  font-size: 1.6rem; }
-
 *, *:before, *:after {
   box-sizing: inherit; }
+
+body {
+  font-size: 1.6rem; }
 
 .structural {
   display: none; }
@@ -78,6 +78,9 @@ ul {
   ul li {
     margin: 1rem;
     list-style-type: disc; }
+
+input {
+  font-family: "Helvetica Neue", sans-serif; }
 
 blockquote {
   margin: 1rem; }
