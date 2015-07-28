@@ -280,13 +280,20 @@ blockquote {
 			div {
 				overflow: hidden;
 				margin: 1rem;
-				width: 100%;
+				width: 90%; /* overflow... */
+				float: left;
+
 				input {
 					font-size: 1.5rem;
 					width: 100%;
 					clear: left;
 					border: 1px $light-colour solid;
 					border-radius: 2px;
+				}
+
+				&.halve {
+					width: 40%; /* overflow... */
+					// background-color: #F00;
 				}
 			}
 			label {

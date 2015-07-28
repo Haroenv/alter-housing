@@ -310,13 +310,18 @@ blockquote {
       .rooms aside form div {
         overflow: hidden;
         margin: 1rem;
-        width: 100%; }
+        width: 90%;
+        /* overflow... */
+        float: left; }
         .rooms aside form div input {
           font-size: 1.5rem;
           width: 100%;
           clear: left;
           border: 1px #F2CFB5 solid;
           border-radius: 2px; }
+        .rooms aside form div.halve {
+          width: 40%;
+          /* overflow... */ }
       .rooms aside form label {
         font-size: 1.2rem; }
   .rooms section {
