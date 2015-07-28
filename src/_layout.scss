@@ -313,6 +313,7 @@ blockquote {
 			padding: 2rem;
 			border: 1px $light-colour solid;
 			border-right: none;
+			border-bottom: none;
 
 			@extend %clearfix;
 

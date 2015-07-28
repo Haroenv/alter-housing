@@ -333,7 +333,8 @@ blockquote {
     .rooms section article {
       padding: 2rem;
       border: 1px #F2CFB5 solid;
-      border-right: none; }
+      border-right: none;
+      border-bottom: none; }
       .rooms section article img {
         padding: 1rem;
         width: 30%;
