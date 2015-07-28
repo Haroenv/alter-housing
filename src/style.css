@@ -342,21 +342,20 @@ blockquote {
           .rooms section article img {
             width: 100%; } }
       .rooms section article div {
-        width: 35%;
-        float: left; }
+        float: left;
+        text-align: center;
+        width: 35%; }
         @media all and (max-width: 700px) {
           .rooms section article div {
             width: 100%; } }
-        .rooms section article div p.price {
-          text-align: center; }
-          .rooms section article div p.price:nth-of-type(1), .rooms section article div p.price:nth-of-type(2) {
-            color: #70716c; }
-          .rooms section article div p.price:nth-of-type(1) {
-            font-weight: 600; }
-          .rooms section article div p.price:nth-of-type(2) {
-            padding: 2rem;
-            font-size: 8rem;
-            font-weight: 100; }
+        .rooms section article div p.price:nth-of-type(1), .rooms section article div p.price:nth-of-type(2) {
+          color: #70716c; }
+        .rooms section article div p.price:nth-of-type(1) {
+          font-weight: 600; }
+        .rooms section article div p.price:nth-of-type(2) {
+          padding: 2rem;
+          font-size: 8rem;
+          font-weight: 100; }
       .rooms section article .icons {
         border-top: 1px #F2CFB5 solid;
         padding: 0; }
@@ -372,7 +371,9 @@ blockquote {
     border: none;
     border-radius: 0;
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    margin: auto;
+    display: inline-block; }
 
 /* header and footer */
 header {
