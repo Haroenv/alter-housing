@@ -277,10 +277,12 @@ blockquote {
 		form {
 			border-top: 1px $light-colour solid;
 			margin: 1rem;
+			text-align: center; /*todo: de-uglify */
 			div {
-				overflow: hidden;
+				text-align: left;
+				// overflow: hidden;
 				margin: 1rem;
-				width: 90%; /* overflow... */
+				width: 90%; /* todo: overflow... */
 				float: left;
 
 				input {
@@ -366,12 +368,15 @@ blockquote {
 	}
 
 	.button {
+		float: none;
+		clear: both;
 		background-color: $colour;
 		border: none;
 		border-radius: 0;
 		color: $light;
 		text-align: center;
-		margin: auto;
+		// display: block;
+		// margin: 0 auto;
 		display: inline-block;
 	}
 }

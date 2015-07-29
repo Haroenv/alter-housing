@@ -80,7 +80,7 @@ ul {
     list-style-type: disc; }
 
 input {
-  font-family: "Helvetica Neue", sans-serif; }
+  font: inherit; }
 
 blockquote {
   margin: 1rem; }
@@ -306,12 +306,14 @@ blockquote {
         width: 100%; } }
     .rooms aside form {
       border-top: 1px #F2CFB5 solid;
-      margin: 1rem; }
+      margin: 1rem;
+      text-align: center;
+      /*todo: de-uglify */ }
       .rooms aside form div {
-        overflow: hidden;
+        text-align: left;
         margin: 1rem;
         width: 90%;
-        /* overflow... */
+        /* todo: overflow... */
         float: left; }
         .rooms aside form div input {
           font-size: 1.5rem;
@@ -368,12 +370,13 @@ blockquote {
           width: 100%;
           height: 100%; }
   .rooms .button {
+    float: none;
+    clear: both;
     background-color: #D97B34;
     border: none;
     border-radius: 0;
     color: #fff;
     text-align: center;
-    margin: auto;
     display: inline-block; }
 
 /* header and footer */
