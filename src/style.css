@@ -298,6 +298,8 @@ blockquote {
   @media all and (max-width: 510px) {
     .rooms {
       padding: 0 5vw; } }
+  .rooms h3 {
+    font-family: "Open Sans Condensed", sans-serif; }
   .rooms aside {
     width: 30%;
     float: left; }
@@ -346,11 +348,12 @@ blockquote {
             width: 100%; } }
       .rooms section article div {
         float: left;
-        text-align: center;
         width: 35%; }
         @media all and (max-width: 700px) {
           .rooms section article div {
             width: 100%; } }
+        .rooms section article div.price {
+          text-align: center; }
         .rooms section article div p.price:nth-of-type(1), .rooms section article div p.price:nth-of-type(2) {
           color: #70716c; }
         .rooms section article div p.price:nth-of-type(1) {
@@ -364,7 +367,7 @@ blockquote {
         padding: 0; }
         .rooms section article .icons li {
           margin: 0.25rem;
-          width: 12.5%;
+          width: 10%;
           height: 4rem; }
         .rooms section article .icons svg {
           width: 100%;

@@ -267,6 +267,10 @@ blockquote {
 		padding: 0 5vw;
 	}
 
+	h3 {
+		font-family: $condensed;
+	}
+
 	aside {
 		width: 30%;
 		@media all and (max-width: 740px) {
@@ -330,10 +334,14 @@ blockquote {
 
 			div {
 				float: left;
-				text-align: center;
+
 				width: 35%;
 				@media all and (max-width: 700px) {
 					width: 100%;
+				}
+
+				&.price {
+					text-align: center;
 				}
 
 				p.price {
@@ -356,7 +364,7 @@ blockquote {
 				padding: 0;
 				li {
 					margin: 0.25rem;
-					width: percentage(1/8);
+					width: percentage(1/10);
 					height: 4rem;
 				}
 				svg {
