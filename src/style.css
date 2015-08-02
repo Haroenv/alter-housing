@@ -206,10 +206,10 @@ iframe {
       .opening form input[type=submit] {
         background-color: #fff;
         border: none;
-        padding: 0 2rem;
+        padding: 0.6rem 2rem;
         width: initial;
         float: right;
-        margin: 2.3rem 1rem;
+        margin: 2.3rem 1rem 0;
         /* help */ }
         @media all and (max-width: 705px) {
           .opening form input[type=submit] {
