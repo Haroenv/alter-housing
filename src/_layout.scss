@@ -366,6 +366,9 @@ blockquote {
 					margin: 0.25rem;
 					width: percentage(1/10);
 					height: 4rem;
+					@media all and (max-width: 850px) and (min-width: 720px) {
+						width: percentage(1/5);
+					}
 				}
 				svg {
 					width: 100%;
