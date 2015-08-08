@@ -71,6 +71,10 @@ ul {
 
 input {
 	font: inherit;
+
+	&[type=submit] {
+		pointer: hover;
+	}
 }
 
 blockquote {
