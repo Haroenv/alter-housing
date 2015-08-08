@@ -3,7 +3,7 @@
 - [x] images
 - [x] pages
 - [ ] outline
-- [ ] styling
+- [x] styling
 - [x] subtitle
 - [x] description
 - [x] slogan
@@ -14,4 +14,6 @@
 - [x] favicon
 - [ ] de-scss-ify
 - [ ] mobile testing
+- [ ] hero image on iPhone 4
 - [ ] cross-browser
+- [ ] svg's on windows
