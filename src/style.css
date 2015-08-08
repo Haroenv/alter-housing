@@ -278,6 +278,8 @@ blockquote {
     margin: 0.5rem;
     background-color: #fff;
     font-weight: 300; }
+    .contact input[type=submit]:active, .contact textarea[type=submit]:active {
+      color: #D97B34; }
 .contact textarea {
   resize: vertical; }
 .contact li {
