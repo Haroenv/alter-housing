@@ -13,3 +13,5 @@
 - [x] rooms form
 - [x] favicon
 - [ ] de-scss-ify
+- [ ] mobile testing
+- [ ] cross-browser
