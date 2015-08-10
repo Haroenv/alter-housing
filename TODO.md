@@ -3,6 +3,7 @@
 - [x] images
 - [x] pages
 - [ ] outline
+	* what to do with "half-wrapper"?
 - [x] styling
 - [x] subtitle
 - [x] description
@@ -20,4 +21,5 @@
 	- [x] Chrome
 	- [x] Firefox
 	- [ ] IE
-- [ ] svg's on windows
+		* svg's don't work
+		* excessive "search" button on index (100%)
