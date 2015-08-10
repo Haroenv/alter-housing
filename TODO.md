@@ -2,8 +2,6 @@
 
 - [x] images
 - [x] pages
-- [ ] outline
-	* what to do with "half-wrapper"?
 - [x] styling
 - [x] subtitle
 - [x] description
@@ -13,7 +11,6 @@
 - [x] header align bottom
 - [x] rooms form
 - [x] favicon
-- [ ] de-scss-ify
 - [x] mobile testing
 - [ ] hero image on iPhone 4 (unreproducible)
 - [ ] cross-browser
@@ -23,3 +20,6 @@
 	- [ ] IE
 		* svg's don't work
 		* excessive "search" button on index (100%)
+- [ ] outline
+	* what to do with "half-wrapper"?
+- [ ] de-scss-ify
