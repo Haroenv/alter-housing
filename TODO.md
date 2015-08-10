@@ -20,6 +20,6 @@
 	- [ ] IE
 		* svg's don't work
 		* excessive "search" button on index (100%)
-- [ ] outline
-	* what to do with "half-wrapper"?
+- [x] outline
+	- [x] what to do with "half-wrapper"?
 - [ ] de-scss-ify
