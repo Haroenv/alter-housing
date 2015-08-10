@@ -13,7 +13,11 @@
 - [x] rooms form
 - [x] favicon
 - [ ] de-scss-ify
-- [ ] mobile testing
-- [ ] hero image on iPhone 4
+- [x] mobile testing
+- [ ] hero image on iPhone 4 (unreproducible)
 - [ ] cross-browser
+	- [x] Safari
+	- [x] Chrome
+	- [x] Firefox
+	- [ ] IE
 - [ ] svg's on windows
