@@ -51,6 +51,7 @@ a {
 	text-decoration: none;
 
 	&:hover {
+		transition: color .2s ease-in;
 		color: $medium;
 	}
 }

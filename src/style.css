@@ -58,6 +58,7 @@ a {
   color: #1e1e1e;
   text-decoration: none; }
   a:hover {
+    transition: color .2s ease-in;
     color: #70716c; }
 
 ul {
