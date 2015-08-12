@@ -13,11 +13,11 @@
 - [x] favicon
 - [x] mobile testing
 - [ ] hero image on iPhone 4 (unreproducible)
-- [ ] cross-browser
+- [x] cross-browser
 	- [x] Safari
 	- [x] Chrome
 	- [x] Firefox
-	- [ ] IE
+	- [x] IE
 		* svg's don't work
 		* excessive "search" button on index (100%)
 - [x] outline
