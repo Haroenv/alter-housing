@@ -165,7 +165,7 @@ blockquote::after {
   overflow: hidden;
 }
 
-@media all and (min-width: 45em) {
+@media all and (min-width: 720px) {
   .half-wrapper {
     padding: 0 10vw;
   }
@@ -189,7 +189,7 @@ blockquote::after {
   max-height: 350px;
 }
 
-@media all and (max-width: 45em) {
+@media all and (max-width: 720px) {
   .half {
     width: 100vw;
   }
@@ -258,11 +258,11 @@ iframe {
   background-size: cover;
 }
 
-@media all and (max-width: 44.063em)  { .opening { height: 120vh; } }
-@media all and (max-height: 31.875em) { .opening { height: 140vh; } }
-@media all and (max-height: 25em)     { .opening { height: 160vh; } }
-@media all and (max-height: 21.25em)  { .opening { height: 200vh; } }
-@media all and (max-height: 16.875em) { .opening { height: 240vh; } }
+@media all and (max-width: 705px) { .opening { height: 120vh; } }
+@media all and (max-height: 510px) { .opening { height: 140vh; } }
+@media all and (max-height: 400px) { .opening { height: 160vh; } }
+@media all and (max-height: 340px) { .opening { height: 200vh; } }
+@media all and (max-height: 270px) { .opening { height: 240vh; } }
 
 .opening form {
   margin: 0 auto;
@@ -278,7 +278,7 @@ iframe {
   width: 18%;
 }
 
-@media all and (max-width: 44.063em) {
+@media all and (max-width: 705px) {
   .opening form div {
     text-align: center;
     width: 60%;
@@ -314,7 +314,7 @@ iframe {
   /* help */
 }
 
-@media all and (max-width: 44.063em) {
+@media all and (max-width: 705px) {
   .opening form input[type=submit] {
     width: 60%;
     margin: 1rem 20%;
@@ -340,13 +340,13 @@ iframe {
   padding: 3rem;
 }
 
-@media all and (max-width: 53.125em) {
+@media all and (max-width: 850px) {
   .opening .overlay {
     width: 60%;
   }
 }
 
-@media all and (max-width: 31.25em) {
+@media all and (max-width: 500px) {
   .opening .overlay {
     width: 100%;
   }
@@ -462,7 +462,7 @@ blockquote cite {
   padding: 0 10vw;
 }
 
-@media all and (max-width: 31.875em) {
+@media all and (max-width: 510px) {
   .rooms {
     padding: 0 5vw;
   }
@@ -477,7 +477,7 @@ blockquote cite {
   float: left;
 }
 
-@media all and (max-width: 46.25em) {
+@media all and (max-width: 740px) {
   .rooms aside,
   .rooms section {
     width: 100%;
@@ -536,12 +536,8 @@ blockquote cite {
   float: left;
 }
 
-@media all and (max-width: 43.75em) {
+@media all and (max-width: 700px) {
   .rooms section article img {
-    width: 100%;
-  }
-
-  .rooms section article div {
     width: 100%;
   }
 }
@@ -549,6 +545,12 @@ blockquote cite {
 .rooms section article div {
   float: left;
   width: 35%;
+}
+
+@media all and (max-width: 700px) {
+  .rooms section article div {
+    width: 100%;
+  }
 }
 
 .rooms section article div.price {
@@ -581,7 +583,7 @@ blockquote cite {
   height: 4rem;
 }
 
-@media all and (max-width: 53.125em) and (min-width: 45em) {
+@media all and (max-width: 850px) and (min-width: 720px) {
   .rooms section article .icons li {
     width: 20%;
   }
@@ -616,13 +618,10 @@ header h1 {
   float: left;
 }
 
-@media all and (max-width: 32.5em) {
+@media all and (max-width: 520px) {
   header h1 {
     text-align: center;
     width: 100%;
-  }
-  header p {
-    display: none;
   }
 }
 
@@ -634,7 +633,13 @@ header p {
   height: 100%;
 }
 
-@media all and (max-width: 57.813em) {
+@media all and (max-width: 520px) {
+  header p {
+    display: none;
+  }
+}
+
+@media all and (max-width: 925px) {
   header ul {
     clear: left;
     width: 100%;
@@ -645,7 +650,7 @@ header p {
   }
 }
 
-@media all and (max-width: 57.813em) and (max-width: 32.5em) {
+@media all and (max-width: 925px) and (max-width: 520px) {
   header ul li {
     width: 100%;
     text-align: center;
@@ -662,7 +667,7 @@ header li {
   float: left;
 }
 
-@media all and (max-width: 31.25em) {
+@media all and (max-width: 500px) {
   header li {
     width: 100%;
   }
@@ -686,7 +691,7 @@ nav li {
   margin: 0.4rem 0;
 }
 
-@media all and (min-width: 26.563em) {
+@media all and (min-width: 425px) {
   nav li {
     display: inline-block;
   }
