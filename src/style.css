@@ -478,13 +478,8 @@ blockquote cite {
 }
 
 @media all and (max-width: 740px) {
-  .rooms aside,
-  .rooms section {
+  .rooms aside {
     width: 100%;
-  }
-
-  .rooms section {
-    border-right: 1px #F2CFB5 solid;
   }
 }
 
@@ -521,6 +516,12 @@ blockquote cite {
 .rooms section {
   width: 70%;
   float: left;
+}
+
+@media all and (max-width: 740px) {
+  .rooms section {
+    width: 100%;
+  }
 }
 
 .rooms section article {
