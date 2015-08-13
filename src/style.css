@@ -802,13 +802,13 @@ footer li {
   vertical-align: center;
 }
 
-.facebook::before { content: ""; }
-.twitter::before { content: ""; }
-.google-plus::before { content: ""; }
-.visa::before { content: ""; }
-.mastercard::before { content: ""; }
-.paypal::before { content: ""; }
-.amex::before { content: ""; }
+.facebook::before { content: "\f09a"; }
+.twitter::before { content: "\f099"; }
+.google-plus::before { content: "\f0d5"; }
+.visa::before { content: "\f1f0"; }
+.mastercard::before { content: "\f1f1"; }
+.paypal::before { content: "\f1f4"; }
+.amex::before { content: "\f1f3"; }
 
 /* this makes the html show the full text, to make it accesible, but only shows the logo */
 .social {
