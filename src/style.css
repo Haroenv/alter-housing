@@ -768,10 +768,8 @@ footer > ul > li ul {
   padding: 0;
 }
 
-@media screen and (max-width: 660px) {
-  footer div {
-    text-align: center;
-  }
+footer div {
+  text-align: center;
 }
 
 footer ul {
