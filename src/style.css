@@ -17,7 +17,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400);
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,a,address,cite,em,img,small,strike,strong,dl,dt,dd,ul,li,fieldset,form,label,legend,caption,article,aside,footer,header,nav,section,audio,video{
   margin: 0;
   padding: 0;
   border: 0;
@@ -553,6 +553,10 @@ blockquote cite {
 .rooms article div {
   float: left;
   width: 35%;
+}
+
+.rooms article h4 {
+  margin: 0.2rem;
 }
 
 @media all and (max-width: 700px) {
