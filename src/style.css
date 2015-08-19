@@ -171,7 +171,7 @@ blockquote::after {
   }
 }
 
-/* darker second row */
+/* darker uneven rows */
 .half-wrapper:nth-of-type(2n+1) {
   background-color: #f4f4f4;
 }
@@ -186,7 +186,7 @@ blockquote::after {
 
 .half img,
 .half iframe {
-  max-height: 350px;
+  max-height: 400px;
   display: block;
 }
 
@@ -764,14 +764,14 @@ footer > ul > li {
   footer > ul > li {
     width: 100%;
   }
+
+  footer div {
+    text-align: center;
+  }
 }
 
 footer > ul > li ul {
   padding: 0;
-}
-
-footer div {
-  text-align: center;
 }
 
 footer ul {
