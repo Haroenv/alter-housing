@@ -76,7 +76,7 @@ body {
 .half-wrapper:after,
 .half:after,
 .opening form:after,
-.rooms section article:after,
+.rooms article:after,
 header:after,
 footer > ul:after {
   content: "";
@@ -522,14 +522,13 @@ blockquote cite {
 
 @media all and (min-width: 740px) {
   .rooms article {
-    border-right-color: #FFF;
+    border-right-color: #FFF !important;
   }
 }
 
-.rooms section article {
+.rooms article {
   padding: 2rem;
   border: 1px #F2CFB5 solid;
-  /*border-right: none;*/
   border-bottom: none;
 }
 
@@ -539,25 +538,25 @@ blockquote cite {
   }
 }
 
-.rooms section article img {
+.rooms article img {
   padding: 1rem;
   width: 30%;
   float: left;
 }
 
 @media all and (max-width: 700px) {
-  .rooms section article img {
+  .rooms article img {
     width: 100%;
   }
 }
 
-.rooms section article div {
+.rooms article div {
   float: left;
   width: 35%;
 }
 
 @media all and (max-width: 700px) {
-  .rooms section article div {
+  .rooms article div {
     width: 100%;
   }
 }
@@ -587,19 +586,19 @@ p.price:nth-of-type(2) {
   }
 }
 
-.rooms section article .icons {
+.rooms article .icons {
   border-top: 1px #F2CFB5 solid;
   padding: 0;
 }
 
-.rooms section article .icons li {
+.rooms article .icons li {
   margin: 0.25rem;
   width: 10%;
   height: 4rem;
 }
 
 @media all and (max-width: 850px) and (min-width: 720px) {
-  .rooms section article .icons li {
+  .rooms article .icons li {
     width: 20%;
   }
 }
