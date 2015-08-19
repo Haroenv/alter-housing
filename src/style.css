@@ -32,7 +32,7 @@ article,aside,details,figcaption,figure,footer,header,menu,nav,section {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.6;
 }
 
 ol,
@@ -187,6 +187,7 @@ blockquote::after {
 .half img,
 .half iframe {
   max-height: 350px;
+  display: block;
 }
 
 @media all and (max-width: 720px) {
