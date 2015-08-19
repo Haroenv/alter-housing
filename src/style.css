@@ -481,6 +481,7 @@ blockquote cite {
 
 .rooms h3 {
   font-family: "Open Sans Condensed", sans-serif;
+  margin: 1rem;
 }
 
 .rooms aside {
