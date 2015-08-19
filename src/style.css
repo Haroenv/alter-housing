@@ -564,7 +564,7 @@ blockquote cite {
 }
 
 .rooms article h4 {
-  margin: 0.2rem;
+  margin-bottom: 0.8rem;
 }
 
 @media all and (max-width: 700px) {
