@@ -727,6 +727,7 @@ nav li a.active {
 }
 
 footer {
+  margin: 2rem 0;
   clear: both;
 }
 

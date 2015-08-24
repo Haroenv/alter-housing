@@ -23,5 +23,5 @@
 - [x] outline
 	- [x] what to do with "half-wrapper"?
 - [x] padding svg's
-- [ ] quotes
-- [ ] padding footer
+- [x] quotes
+- [x] padding footer
