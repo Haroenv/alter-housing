@@ -22,6 +22,6 @@
 		* excessive "search" button on index (100%)
 - [x] outline
 	- [x] what to do with "half-wrapper"?
-- [ ] padding svg's
+- [x] padding svg's
 - [ ] quotes
 - [ ] padding footer
