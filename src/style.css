@@ -386,10 +386,13 @@ blockquote cite {
 }
 
 .icons li {
-  margin: 0 1rem;
+  margin: 0 5rem;
   width: 6rem;
   display: inline-block;
 }
+
+@media all and (max-width: 850px) { .icons li { margin: 0 3rem; } }
+@media all and (max-width: 630px) { .icons li { margin: 0 1rem; } }
 
 @media all and (max-width: 440px) {
   .icons li {
