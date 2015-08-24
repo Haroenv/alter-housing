@@ -138,14 +138,6 @@ blockquote {
   margin: 1rem;
 }
 
-blockquote::before {
-  content: '“';
-}
-
-blockquote::after {
-  content: '”';
-}
-
 .button {
   color: #1e1e1e;
   background-color: #fff;
