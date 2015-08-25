@@ -2,6 +2,10 @@
 ########
 .sass-cache/
 
+# other #
+#########
+*.zip
+
 # OS generated files #
 ######################
 .DS_Store
